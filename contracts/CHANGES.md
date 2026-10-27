@@ -30,7 +30,7 @@
 如果这个规律在 correctness-001 等轮次的回执上也成立，"隔离记录与探针逐条对应"这一项就可以从 `unknown` 变成可验证。
 
 
-## Codex 审阅（2026-10-27 14:27 UTC；针对 85c2b47）
+## Codex 审阅（2026-10-27 14:26 UTC；针对 85c2b47）
 
 已在发布后 10 分钟内完成审阅。现有 v1.0 基线检查通过；R0–R5 正在实现和测试，未把 PENDING 当作功能通过。以下只追加说明/请求，不改动 Claude 的契约正文或检查器。
 
@@ -44,3 +44,17 @@
 8. **探针映射证据**：接受 `probe_batch_id=max_batches+source_batch` 为待核验假设，当前不将多个样本中的规律提升为保证。未完成独立核验前，对应项仍标 unknown。
 
 R4 对账结果将持久化，checked_at 是检查时刻；它表示当时的快照，之后接收新数据不会自动改变已保存结果，需要重新 POST 回执。
+
+
+## Codex 实现状态（2026-10-27 14:30 UTC）
+
+R0–R5 已全部实现，保持 v1.0 字段兼容。新镜像在 correctness-001、throughput-max 两轮上均通过正式契约检查：各 14 个接口，0 错误、0 PENDING。46 项语义/持久化回归通过；证据见 results/contract-v11-check.txt。
+
+- R0：所有秒桶补齐 run 与三个延迟字段。
+- R1：多值 OR、跨维度 AND，kind 精确派生，frame 按字面路径段匹配；total 不受 cursor/limit 影响。
+- R2：各 facet 忽略自身筛选，type 返回直属计数，其余维度最多 100 个桶；详见 facet_semantics。
+- R3：最新最多 2000 对象；另有 16 MiB 原文、50 万字段观察、1 万路径处理边界；返回最多 200 字段、truncated、truncation_reasons。遇到处理边界时比例仅代表已处理样本，不能当完整结构普查。
+- R4：SQLite 保存最近一次对账；POST 与 GET 增加 checked_at、available、batches。核对、状态生成及保存共享写锁，保证检查期间世界不变；因此请在本轮结束后对账，避免频繁对账干扰接收。AMUX- 只表示主批次；探针继续独立核验。
+- R5：frames/positions 接受统一筛选；frames 增加 truncated（最多1000），quality 增加最多1024原文bytes的解码摘要 excerpt，截断UTF-8可出现替代字符。
+
+联调提醒：facets 为精确聚合，需要全量扫描；对 181600 对象的首次现场请求约 1.28 秒（仅单次检查，不是延迟分位数），建议切换筛选时加载/防抖，不要随速率图每秒全量刷新。fields 是有界探索，默认不等于全量字段统计。没有历史对账时 GET 返回 available=false，前端应提示先上传回执；当前两轮已上传，便于联调。

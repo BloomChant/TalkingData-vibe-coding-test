@@ -19,7 +19,8 @@ def test_empty_database_has_readable_query_shapes(client):
     assert client.get('/api/runs').json()=={'runs':[]}
     assert client.get('/api/overview').json()['run'] is None
     assert client.get('/api/tree').json()['nodes']==[]
-    assert client.get('/api/objects').json()=={'items':[],'next_cursor':None}
+    objects=client.get('/api/objects').json()
+    assert objects['items']==[] and objects['next_cursor'] is None
     assert client.get('/api/events').json()['events']==[]
     assert client.get('/api/quality').json()['rejected']==[]
     assert client.get('/api/frames').json()['frames']==[]

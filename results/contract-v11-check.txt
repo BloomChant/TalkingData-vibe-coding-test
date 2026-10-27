@@ -1,0 +1,65 @@
+Contract v1.1 check
+UTC: 2026-10-27T14:29:56.314636+00:00
+Git HEAD: 6fa696dc1781e2831c031781d6f21e5b70afedd3
+Working-tree source SHA256 (includes uncommitted changes; HEAD alone does not identify the running source):
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  server/app/__init__.py
+1233db7d367eb4aaab396b5e369e2b6291c6bfc5e58bf05b399ce34169bc8536  server/app/main.py
+fc6b229a618ba745affe8750f5b2ab4b37843a1f870a928f80e445963aabc56d  server/app/protocol.py
+ef65930107a0e233cf3670a07fe5766ae4f044268c906a383aeeddb7bc78b801  server/app/queries.py
+1d3be164b142dd8b4516a36682d771eab99a45ece3517487ff64563a604cfecf  server/app/reconcile.py
+0aa7881feb5abbc20ea58c085c6270eafa3d16c4e94bb3924e141e13f7506977  server/app/storage.py
+4bbc1c95bd47dce03fd3532eacb2d6c0ef675cb1c810205a932b110db39694d1  contracts/check.mjs
+f8814c52cb9393a88812c79095b283f72414c11e5f6d5e086f86965d013977fc  contracts/manifest.json
+c97bd4cc817c5340c2031a09407d6fc9c243bc10fc140ee92b050229309494d7  contracts/API.md
+
+Reconcile refresh correctness-001: exit=0 (historical evidence files unchanged)
+{"run": "correctness-001", "ok": true, "complete": false, "available": true, "checked_at": 1793111396.4324272}
+
+$ node contracts/check.mjs http://127.0.0.1:8000 --run correctness-001
+契约 v1.1 自检  http://127.0.0.1:8000  run=correctness-001
+
+✓  runs            
+✓  overview        
+✓  tree            
+✓  objects         
+✓  object_detail   
+✓  events          
+✓  quality         
+✓  system          
+✓  frames          
+✓  positions       
+✓  objects_filtered
+✓  facets          
+✓  fields          
+✓  reconcile_last  
+
+✓ 基线全部符合契约
+
+
+exit=0
+
+Reconcile refresh throughput-max: exit=0 (historical evidence files unchanged)
+{"run": "throughput-max", "ok": true, "complete": false, "available": true, "checked_at": 1793111396.9597557}
+
+$ node contracts/check.mjs http://127.0.0.1:8000 --run throughput-max
+契约 v1.1 自检  http://127.0.0.1:8000  run=throughput-max
+
+✓  runs            
+✓  overview        
+✓  tree            
+✓  objects         
+✓  object_detail   
+✓  events          
+✓  quality         
+✓  system          
+✓  frames          
+✓  positions       
+✓  objects_filtered
+✓  facets          
+✓  fields          
+✓  reconcile_last  
+
+✓ 基线全部符合契约
+
+
+exit=0
