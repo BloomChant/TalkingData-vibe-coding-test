@@ -1,0 +1,629 @@
+{
+  "run": {
+    "id": "throughput-3000",
+    "created": 1793110567.0891929,
+    "last_seen": 1793110612.0770378,
+    "revision": 130,
+    "objects": 129700,
+    "batches": 1297,
+    "duplicates": 31,
+    "rejected": 21,
+    "payload_bytes": 190735681
+  },
+  "types": 206,
+  "series": [
+    {
+      "second": 1793110553,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110554,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110555,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110556,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110557,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110558,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110559,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110560,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110561,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110562,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110563,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110564,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110565,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110566,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110567,
+      "objects": 300,
+      "batches": 3,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 50.07895800008555,
+      "latency_count": 4,
+      "latency_max": 16.23912500008373
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110568,
+      "objects": 1400,
+      "batches": 14,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 154.10971200117274,
+      "latency_count": 15,
+      "latency_max": 13.362417000280402
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110569,
+      "objects": 2300,
+      "batches": 23,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 223.6772109999947,
+      "latency_count": 25,
+      "latency_max": 10.973750000175642
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110570,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 4,
+      "rejected": 1,
+      "latency_sum": 294.7482450008465,
+      "latency_count": 33,
+      "latency_max": 13.38554199992359
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110571,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 325.6522919973577,
+      "latency_count": 33,
+      "latency_max": 15.232917000048474
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110572,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 316.3296239990814,
+      "latency_count": 33,
+      "latency_max": 12.822499999856518
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110573,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 327.9194580004514,
+      "latency_count": 33,
+      "latency_max": 12.138249999679829
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110574,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 1,
+      "rejected": 0,
+      "latency_sum": 324.4135390004885,
+      "latency_count": 33,
+      "latency_max": 12.318707999838807
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110575,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 335.23749999903885,
+      "latency_count": 33,
+      "latency_max": 12.514583000211132
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110576,
+      "objects": 2900,
+      "batches": 29,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 330.1970409988826,
+      "latency_count": 32,
+      "latency_max": 14.63220799996634
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110577,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 1,
+      "rejected": 0,
+      "latency_sum": 376.9936650001,
+      "latency_count": 33,
+      "latency_max": 34.603541000251425
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110578,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 345.9375840016037,
+      "latency_count": 33,
+      "latency_max": 14.07095800004754
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110579,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 349.62399900086893,
+      "latency_count": 33,
+      "latency_max": 13.288665999880322
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110580,
+      "objects": 2700,
+      "batches": 27,
+      "duplicates": 1,
+      "rejected": 1,
+      "latency_sum": 584.357210001599,
+      "latency_count": 30,
+      "latency_max": 143.40070900016144
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110581,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 369.9132050010121,
+      "latency_count": 33,
+      "latency_max": 15.438375000030646
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110582,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 1,
+      "rejected": 0,
+      "latency_sum": 364.1195879999941,
+      "latency_count": 33,
+      "latency_max": 14.216333000149461
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110583,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 369.26229099981356,
+      "latency_count": 33,
+      "latency_max": 13.806750000185275
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110584,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 1,
+      "rejected": 2,
+      "latency_sum": 373.06174600053055,
+      "latency_count": 33,
+      "latency_max": 14.42120799993063
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110585,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 4,
+      "rejected": 0,
+      "latency_sum": 395.9488759992382,
+      "latency_count": 33,
+      "latency_max": 16.48399999976391
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110586,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 384.9624140011656,
+      "latency_count": 33,
+      "latency_max": 18.042333000266808
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110587,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 377.53566300034436,
+      "latency_count": 33,
+      "latency_max": 13.665583000147308
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110588,
+      "objects": 2900,
+      "batches": 29,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 413.3541669993974,
+      "latency_count": 32,
+      "latency_max": 27.8331250001429
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110589,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 1,
+      "rejected": 1,
+      "latency_sum": 610.5050430010124,
+      "latency_count": 33,
+      "latency_max": 42.99408300039431
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110590,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 426.35724899901106,
+      "latency_count": 33,
+      "latency_max": 18.537833000209503
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110591,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 1,
+      "rejected": 0,
+      "latency_sum": 413.465124999675,
+      "latency_count": 33,
+      "latency_max": 18.71045799998683
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110592,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 2,
+      "rejected": 1,
+      "latency_sum": 422.0707510016837,
+      "latency_count": 33,
+      "latency_max": 15.89845799981049
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110593,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 440.677001997301,
+      "latency_count": 33,
+      "latency_max": 19.079416999829846
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110594,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 440.5426240004999,
+      "latency_count": 33,
+      "latency_max": 17.740332999892416
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110595,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 1,
+      "rejected": 0,
+      "latency_sum": 433.1192060003559,
+      "latency_count": 33,
+      "latency_max": 16.56616699983715
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110596,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 2,
+      "rejected": 0,
+      "latency_sum": 430.75429399914356,
+      "latency_count": 33,
+      "latency_max": 17.688207999981387
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110597,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 3,
+      "rejected": 0,
+      "latency_sum": 434.2877500025679,
+      "latency_count": 33,
+      "latency_max": 17.443625000396423
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110598,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 455.01349799997115,
+      "latency_count": 33,
+      "latency_max": 17.098791000080382
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110599,
+      "objects": 2900,
+      "batches": 29,
+      "duplicates": 1,
+      "rejected": 1,
+      "latency_sum": 444.14412799733327,
+      "latency_count": 32,
+      "latency_max": 18.003291000241006
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110600,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 2,
+      "rejected": 0,
+      "latency_sum": 442.2657929999332,
+      "latency_count": 33,
+      "latency_max": 16.0506670003997
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110601,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 457.7322960003585,
+      "latency_count": 33,
+      "latency_max": 17.4510840001858
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110602,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 1,
+      "rejected": 0,
+      "latency_sum": 467.39741700093873,
+      "latency_count": 33,
+      "latency_max": 19.515541999680863
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110603,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 1,
+      "rejected": 0,
+      "latency_sum": 461.35599999979604,
+      "latency_count": 33,
+      "latency_max": 18.034291999811103
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110604,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 456.19200000101046,
+      "latency_count": 33,
+      "latency_max": 17.74379099970247
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110605,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 478.05128599884483,
+      "latency_count": 33,
+      "latency_max": 17.91079099984927
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110606,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 1,
+      "rejected": 0,
+      "latency_sum": 520.9647929996208,
+      "latency_count": 33,
+      "latency_max": 36.992542000007234
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110607,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 484.97620899888716,
+      "latency_count": 33,
+      "latency_max": 23.921750000226893
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110608,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 444.6770419990571,
+      "latency_count": 33,
+      "latency_max": 17.903875000229164
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110609,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 2,
+      "latency_sum": 446.5572089993657,
+      "latency_count": 33,
+      "latency_max": 17.143249999662658
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110610,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 459.6021260017551,
+      "latency_count": 33,
+      "latency_max": 20.882000000256085
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110611,
+      "objects": 3000,
+      "batches": 30,
+      "duplicates": 2,
+      "rejected": 1,
+      "latency_sum": 455.05441699879157,
+      "latency_count": 33,
+      "latency_max": 21.47058399987145
+    },
+    {
+      "run": "throughput-3000",
+      "second": 1793110612,
+      "objects": 300,
+      "batches": 3,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 45.286709000265546,
+      "latency_count": 3,
+      "latency_max": 15.544500000032713
+    }
+  ],
+  "rate": 3000.0,
+  "active": true,
+  "operations": {
+    "create": 206,
+    "move": 13,
+    "rename": 25
+  },
+  "positioned": 110607,
+  "activity_semantics": "A request was persisted in the last five seconds; not generator control state."
+}

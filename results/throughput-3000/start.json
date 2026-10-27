@@ -1,0 +1,38 @@
+{
+  "config": {
+    "workload": "objects",
+    "objects": {
+      "faults": {
+        "duplicate_rate": 0.02,
+        "incomplete_rate": 0.01,
+        "invalid_rate": 0.01
+      },
+      "scenario": "evolving",
+      "initial_types": 24,
+      "max_types": 4096,
+      "tree_every_batches": 10,
+      "max_depth": 5,
+      "max_object_bytes": 8192
+    },
+    "rate_profile": "steady",
+    "ramp_seconds": 3,
+    "target_url": "http://host.docker.internal:8000/ingest",
+    "test_id": "throughput-3000",
+    "seed": 42,
+    "base_timestamp_ms": 1792627200000,
+    "workers": 4,
+    "batch_size": 100,
+    "events_per_second": 3000,
+    "duration_seconds": 45,
+    "max_batches": 20000,
+    "timeout_ms": 3000,
+    "retries": 2,
+    "profile": "mixed",
+    "payload_mode": "templated",
+    "run_count": 100000,
+    "error_rate": 0.05,
+    "payload_min_bytes": 32,
+    "payload_max_bytes": 2048
+  },
+  "test_id": "throughput-3000"
+}

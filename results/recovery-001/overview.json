@@ -1,0 +1,485 @@
+{
+  "run": {
+    "id": "recovery-001",
+    "created": 1793110772.51196,
+    "last_seen": 1793110781.80079,
+    "revision": 18,
+    "objects": 3560,
+    "batches": 178,
+    "duplicates": 5,
+    "rejected": 2,
+    "payload_bytes": 5117407
+  },
+  "types": 50,
+  "series": [
+    {
+      "second": 1793110723,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110724,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110725,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110726,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110727,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110728,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110729,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110730,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110731,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110732,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110733,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110734,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110735,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110736,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110737,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110738,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110739,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110740,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110741,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110742,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110743,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110744,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110745,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110746,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110747,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110748,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110749,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110750,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110751,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110752,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110753,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110754,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110755,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110756,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110757,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110758,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110759,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110760,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110761,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110762,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110763,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110764,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110765,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110766,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110767,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110768,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110769,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110770,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "second": 1793110771,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    },
+    {
+      "run": "recovery-001",
+      "second": 1793110772,
+      "objects": 20,
+      "batches": 1,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 20.67441700000927,
+      "latency_count": 2,
+      "latency_max": 14.414374999887514
+    },
+    {
+      "run": "recovery-001",
+      "second": 1793110773,
+      "objects": 220,
+      "batches": 11,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 108.13545800010615,
+      "latency_count": 12,
+      "latency_max": 11.877166999965993
+    },
+    {
+      "run": "recovery-001",
+      "second": 1793110774,
+      "objects": 460,
+      "batches": 23,
+      "duplicates": 0,
+      "rejected": 1,
+      "latency_sum": 196.53241499918295,
+      "latency_count": 25,
+      "latency_max": 27.558125000268774
+    },
+    {
+      "run": "recovery-001",
+      "second": 1793110775,
+      "objects": 500,
+      "batches": 25,
+      "duplicates": 3,
+      "rejected": 0,
+      "latency_sum": 164.5557119991281,
+      "latency_count": 28,
+      "latency_max": 9.359790999951656
+    },
+    {
+      "run": "recovery-001",
+      "second": 1793110776,
+      "objects": 500,
+      "batches": 25,
+      "duplicates": 1,
+      "rejected": 1,
+      "latency_sum": 166.63691000030667,
+      "latency_count": 27,
+      "latency_max": 8.583415999964927
+    },
+    {
+      "run": "recovery-001",
+      "second": 1793110777,
+      "objects": 500,
+      "batches": 25,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 175.27733099996112,
+      "latency_count": 28,
+      "latency_max": 7.731166000212397
+    },
+    {
+      "run": "recovery-001",
+      "second": 1793110778,
+      "objects": 500,
+      "batches": 25,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 169.72579000139376,
+      "latency_count": 27,
+      "latency_max": 7.536542000252666
+    },
+    {
+      "run": "recovery-001",
+      "second": 1793110779,
+      "objects": 500,
+      "batches": 25,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 188.88200099763708,
+      "latency_count": 28,
+      "latency_max": 11.735625000255823
+    },
+    {
+      "run": "recovery-001",
+      "second": 1793110780,
+      "objects": 340,
+      "batches": 17,
+      "duplicates": 1,
+      "rejected": 0,
+      "latency_sum": 117.06645700132867,
+      "latency_count": 18,
+      "latency_max": 8.030166000025929
+    },
+    {
+      "run": "recovery-001",
+      "second": 1793110781,
+      "objects": 20,
+      "batches": 1,
+      "duplicates": 0,
+      "rejected": 0,
+      "latency_sum": 13.09254099987811,
+      "latency_count": 1,
+      "latency_max": 13.09254099987811
+    },
+    {
+      "second": 1793110782,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 0
+    }
+  ],
+  "rate": 372.0,
+  "active": true,
+  "operations": {
+    "create": 50,
+    "move": 1,
+    "rename": 3
+  },
+  "positioned": 3097,
+  "activity_semantics": "A request was persisted in the last five seconds; not generator control state."
+}

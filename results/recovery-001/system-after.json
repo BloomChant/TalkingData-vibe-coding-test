@@ -1,0 +1,13 @@
+{
+  "memory_bytes": 36081664,
+  "memory_limit_bytes": 4294967296,
+  "cpu_limit": 4.0,
+  "cpu_percent": 4.0336697664369305,
+  "data_bytes": 397946880,
+  "disk_warn_bytes": 17179869184,
+  "disk_stop_bytes": 19327352832,
+  "disk_budget_bytes": 21474836480,
+  "uptime_seconds": 1.155328499999996,
+  "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+  "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+}

@@ -1,0 +1,10 @@
+{
+  "name": "/observatory-app-1",
+  "image": "observatory-app:local",
+  "state": "running",
+  "limits": {
+    "NanoCpus": 4000000000,
+    "Memory": 4294967296,
+    "MemorySwap": 4294967296
+  }
+}

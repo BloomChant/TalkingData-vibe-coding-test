@@ -1,0 +1,326 @@
+[
+  {
+    "time": 1793110868.1997068,
+    "system": {
+      "memory_bytes": 180547584,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 53.29376999401019,
+      "data_bytes": 515190928,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 86.81578612200019,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 15.150708000000005,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110870.210922,
+    "system": {
+      "memory_bytes": 213794816,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 65.64233358456224,
+      "data_bytes": 546897920,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 88.8319164569998,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 10.963792000000083,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110872.228676,
+    "system": {
+      "memory_bytes": 251392000,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 65.02351000179858,
+      "data_bytes": 582553984,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 90.84431166600007,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 14.318291999999566,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110874.250313,
+    "system": {
+      "memory_bytes": 280686592,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 68.47779990111717,
+      "data_bytes": 608989184,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 92.86377929199989,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 17.06120799999944,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110876.262194,
+    "system": {
+      "memory_bytes": 310108160,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 63.8640273558202,
+      "data_bytes": 637441032,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 94.8832447929999,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 9.72770799999978,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110878.270972,
+    "system": {
+      "memory_bytes": 340168704,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 76.10525922294403,
+      "data_bytes": 665994440,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 96.8926630850001,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 7.82041699999958,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110880.281137,
+    "system": {
+      "memory_bytes": 375189504,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 64.54021444813992,
+      "data_bytes": 699307784,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 98.90538958600018,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 5.24508300000015,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110882.291449,
+    "system": {
+      "memory_bytes": 405700608,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 64.39441702213449,
+      "data_bytes": 729233784,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 100.91586046200018,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 5.282541999999779,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110884.306392,
+    "system": {
+      "memory_bytes": 434958336,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 65.23814935252014,
+      "data_bytes": 757637120,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 102.93081492200008,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 12.91425000000146,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110886.328825,
+    "system": {
+      "memory_bytes": 466751488,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 64.11651408715717,
+      "data_bytes": 786636800,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 104.95122888000014,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 18.595125000000934,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110888.345508,
+    "system": {
+      "memory_bytes": 502267904,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 72.33700821878298,
+      "data_bytes": 818073600,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 106.96026275599979,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 15.066749999999018,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110890.377953,
+    "system": {
+      "memory_bytes": 533172224,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 62.41334257474926,
+      "data_bytes": 848066048,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 108.97787621499992,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 29.33295800000124,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110892.4649332,
+    "system": {
+      "memory_bytes": 539766784,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 5.091857724980934,
+      "data_bytes": 854564864,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 111.06665767499999,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 82.5029999999991,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110894.484989,
+    "system": {
+      "memory_bytes": 539734016,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 1.0661278219124817,
+      "data_bytes": 854564864,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 113.10121671700017,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 17.88608400000058,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110896.497458,
+    "system": {
+      "memory_bytes": 539701248,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 0.8323120130026673,
+      "data_bytes": 854564864,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 115.11824875999991,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 10.875999999999664,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110898.506005,
+    "system": {
+      "memory_bytes": 539820032,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 9.174987811865718,
+      "data_bytes": 854564864,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 117.1300988439998,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 5.776415999999784,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110900.525833,
+    "system": {
+      "memory_bytes": 540045312,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 0.5853792549432518,
+      "data_bytes": 854564864,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 119.14298192800015,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 15.406374999997752,
+    "returned_objects": 25
+  },
+  {
+    "time": 1793110902.5461838,
+    "system": {
+      "memory_bytes": 540000256,
+      "memory_limit_bytes": 4294967296,
+      "cpu_limit": 4.0,
+      "cpu_percent": 1.0706553385925741,
+      "data_bytes": 854564864,
+      "disk_warn_bytes": 17179869184,
+      "disk_stop_bytes": 19327352832,
+      "disk_budget_bytes": 21474836480,
+      "uptime_seconds": 121.16389372100002,
+      "metrics_source": "cgroup v2; null means unavailable; 100% CPU equals one core",
+      "disk_policy": "Application high-water protection, not a filesystem hard quota; Docker logs have separate rotation."
+    },
+    "query_roundtrip_ms": 16.281334000005643,
+    "returned_objects": 25
+  }
+]

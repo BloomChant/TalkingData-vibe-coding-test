@@ -1,0 +1,8 @@
+{
+  "health": {
+    "status": "ok",
+    "version": "1.0.0"
+  },
+  "seconds_to_health": 0.8844623330000001,
+  "meaning": "From issuing SIGKILL to first successful health response; includes Docker CLI overhead."
+}

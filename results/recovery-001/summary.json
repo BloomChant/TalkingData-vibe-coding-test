@@ -1,0 +1,24 @@
+{
+  "test_id": "recovery-001",
+  "container": "observatory-app-1",
+  "sigkill_performed": true,
+  "recovered": true,
+  "seconds_to_health": 0.8844623330000001,
+  "acknowledged_batches_before_kill": 174,
+  "acknowledged_batches_final": 177,
+  "acknowledged_missing_zero": true,
+  "reconciliation_ok": true,
+  "reconciliation_complete": false,
+  "passed": false,
+  "unknown_checks": [
+    "已入库但回执未确认的主批次",
+    "隔离记录与探针逐条对应",
+    "对象内容及各类型分布的独立校验"
+  ],
+  "scope": "Process SIGKILL and container restart: all 177 acknowledged batches survived and health recovered in 0.884 seconds. The generator failed at 8.372 seconds after tree revision 19 connection errors exhausted retries; the configured 40-second stream did not complete. This is not a host power-loss test.",
+  "generator_state": "failed",
+  "finish_reason": "tree_error",
+  "elapsed_seconds": 8.372303296,
+  "durability_passed": true,
+  "stream_completed": false
+}

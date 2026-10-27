@@ -1,0 +1,10 @@
+{
+  "test_id": "throughput-max",
+  "elapsed_seconds": 30.00057693,
+  "generator_acknowledged_main_objects": 180800,
+  "acknowledged_main_objects_per_second": 6026.550770068808,
+  "generator_main_request_average_latency_ms": 113.06939070382514,
+  "generator_main_request_max_latency_ms": 279.70425,
+  "reconciliation_ok": true,
+  "note": "Generator main-object counters exclude extra fault/duplicate injections. This is one measured run, not a guaranteed capacity."
+}

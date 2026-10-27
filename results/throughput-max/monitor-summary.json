@@ -1,0 +1,33 @@
+{
+  "source": "monitor.json and status.json",
+  "run": "throughput-max",
+  "measurement": "query_roundtrip_ms starts before GET /api/system and includes the following GET /api/objects; it is their combined wall time, not isolated object-list latency.",
+  "memory_scope": "cgroup memory includes cache and all prior retained data. Maxima are sampled values for this test window, not continuous peaks or guaranteed capacity.",
+  "during_generator_run": {
+    "samples": 12,
+    "first_sample_seconds_after_run_start": 7.216756820678711,
+    "last_sample_seconds_after_run_start": 29.395003080368042,
+    "peak_sampled_cgroup_memory_bytes": 533172224,
+    "combined_system_and_objects_roundtrip_average_ms": 13.456569416666753,
+    "combined_system_and_objects_roundtrip_max_ms": 29.33295800000124,
+    "returned_objects_per_sample": [
+      25
+    ]
+  },
+  "whole_monitor_window_including_post_run": {
+    "samples": 18,
+    "first_sample_seconds_after_run_start": 7.216756820678711,
+    "last_sample_seconds_after_run_start": 41.563233852386475,
+    "peak_sampled_cgroup_memory_bytes": 540045312,
+    "combined_system_and_objects_roundtrip_average_ms": 17.233780111111308,
+    "combined_system_and_objects_roundtrip_max_ms": 82.5029999999991,
+    "returned_objects_per_sample": [
+      25
+    ]
+  },
+  "limitations": [
+    "Monitoring starts about 7.2 seconds after generation starts; the first seconds have no samples.",
+    "Whole monitor window includes about 11.6 seconds after the 30-second run finishes.",
+    "No percentile or long-duration performance claim is made."
+  ]
+}

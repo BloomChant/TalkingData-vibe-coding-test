@@ -21,8 +21,6 @@ _CPU_SAMPLE = None
 def select_run(db, run):
     if run:
         row = db.execute('SELECT * FROM runs WHERE id=?', (run,)).fetchone()
-        if not row:
-            raise HTTPException(404, 'Run not found')
     else:
         row = db.execute('SELECT * FROM runs ORDER BY last_seen DESC LIMIT 1').fetchone()
     return dict(row) if row else None

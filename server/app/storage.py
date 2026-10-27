@@ -15,6 +15,7 @@ WARN_BYTES = int(os.environ.get('DISK_WARN_BYTES', 16 * 1024**3))
 STOP_BYTES = int(os.environ.get('DISK_STOP_BYTES', 18 * 1024**3))
 WRITE_LOCK = threading.Lock()
 SCHEMA = '''
+CREATE TABLE IF NOT EXISTS reconciliations(run TEXT PRIMARY KEY,checked_at REAL NOT NULL,result TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS runs(id TEXT PRIMARY KEY,created REAL NOT NULL,last_seen REAL NOT NULL,revision INTEGER NOT NULL DEFAULT 0,objects INTEGER NOT NULL DEFAULT 0,batches INTEGER NOT NULL DEFAULT 0,duplicates INTEGER NOT NULL DEFAULT 0,rejected INTEGER NOT NULL DEFAULT 0,payload_bytes INTEGER NOT NULL DEFAULT 0);
 CREATE TABLE IF NOT EXISTS types(run TEXT NOT NULL,id INTEGER NOT NULL,parent INTEGER NOT NULL,name TEXT NOT NULL,count INTEGER NOT NULL DEFAULT 0,revision INTEGER NOT NULL,PRIMARY KEY(run,id));
 CREATE INDEX IF NOT EXISTS types_parent ON types(run,parent);
@@ -143,7 +144,7 @@ def apply_objects(db,msg):
         if obj['type_id'] not in known: raise IngestError(422,'Object references unknown type_id')
         content=canonical(obj);digest=hashlib.sha256(content.encode()).hexdigest();pos=obj.get('position') or {}
         cur=db.execute('''INSERT OR IGNORE INTO objects(run,id,type_id,name,sequence,timestamp_ms,tree_revision,body,digest,frame_id,frame_kind,unit,x,y,z)
-          VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)''',(run,obj['id'],obj['type_id'],obj['name'],obj['sequence'],obj['timestamp_ms'],msg['tree_revision'],content,digest,pos.get('frame_id'),pos.get('frame_kind'),pos.get('unit'),pos.get('x'),pos.get('y'),pos.get('z')))
+          VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)''',(run,obj['id'],obj['type_id'],obj['name'],obj['sequence'],obj['timestamp_ms'],msg['tree_revision'],content,digest,pos.get('frame_id'),pos.get('frame_kind'),pos.get('unit'),float(pos['x']) if pos else None,float(pos['y']) if pos else None,float(pos['z']) if pos else None))
         if cur.rowcount: added+=1;counts[obj['type_id']]+=1
         else:
             previous=db.execute('SELECT digest FROM objects WHERE run=? AND id=?',(run,obj['id'])).fetchone()[0]
@@ -158,7 +159,6 @@ def ingest(body,msg,headers):
     digest=hashlib.sha256(canonical(msg).encode()).hexdigest();now=time.time();started=time.perf_counter()
     if not WRITE_LOCK.acquire(timeout=0.15): raise IngestError(429,'Writer busy; retry later')
     try:
-        admission(body)
         with connect() as db:
             ensure_run(db,run,now)
             previous=db.execute('SELECT digest FROM messages WHERE run=? AND kind=? AND key=?',(run,kind,key)).fetchone()
@@ -166,6 +166,7 @@ def ingest(body,msg,headers):
                 if previous[0]!=digest: raise IngestError(409,'Idempotency key has conflicting content')
                 db.execute('UPDATE runs SET duplicates=duplicates+1,last_seen=? WHERE id=?',(now,run));bucket(db,run,now,duplicates=1)
                 return {'persisted':True,'duplicate':True,'inserted_objects':0}
+            admission(body)
             added=apply_tree(db,msg) if kind=='types' else apply_objects(db,msg)
             db.execute('INSERT INTO messages VALUES(?,?,?,?,?,?,?,?,?)',(run,kind,key,digest,zlib.compress(body,1),len(body),len(msg.get('objects',[])),now,json.dumps(headers)))
             db.execute('UPDATE runs SET last_seen=?,payload_bytes=payload_bytes+? WHERE id=?',(now,len(body),run))
