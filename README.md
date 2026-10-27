@@ -2,7 +2,7 @@
 
 **所选题目：题目二。** 一个用于理解持续流入的陌生对象的单机观测工作台：接收出题方发生器的真实 HTTP 消息，维护演化中的分类树，检索对象及动态属性，并用回执核对接收结果。
 
-后端使用 **Python / FastAPI + SQLite**，前端由 Claude 独立开发，构建产物提交在 `web/dist`。Docker 镜像直接复制前端构建产物，不运行 npm；页面与 API 由同一后端进程提供。后台全部运行在一个 Linux arm64 应用容器中；发生器单独运行。
+后端使用 **Python / FastAPI + SQLite**，前端是直接托管的原生 ES module，源码位于 `web/dist`，没有 npm 依赖或前端构建步骤。Docker 镜像直接复制这些 HTML、CSS、JavaScript 文件，页面与 API 由同一后端进程提供。后台全部运行在一个 Linux arm64 应用容器中；发生器单独运行。前端设计、操作与语义边界见 [前端说明](docs/frontend.md)。
 
 ## 快速运行
 
@@ -62,14 +62,13 @@ python3 scripts/reconcile.py results/<test_id>/receipt.json
 
 ## 页面使用
 
-1. 选择运行轮次，查看对象数、分类数、接收速率、重复与异常统计。
-2. 展开分类树；选择一个节点，查询其自身及子树里的对象。
-3. 通过中文名称搜索，按游标翻页。选择对象，查看动态属性、坐标和完整 JSON。
-4. 查看分类新增、改名、迁移事件；不会把分类移动描述成对象的物理运动。
-5. 数据质量区域列出拒绝批次的原因；上传发生器回执可展示核对结果。
-6. 系统区域读取容器实际 cgroup 指标，展示 CPU、内存及数据目录占用。非 Linux 容器环境缺少 cgroup 时指标显示不可用，不生成假数值。
+完整说明见 [docs/frontend.md](docs/frontend.md)，界面分为三个页面：
 
-空间数据按明确的 `frame_id` 和单位分别查询。没有位置的对象显示“未提供位置”；不会据此声称对象失联。空间接口最多返回 2,000 个最新对象，是有界样本，不代表完整空间分布。
+1. **总览**：选择运行轮次，查看对象、分类和接收指标；入库节奏与平均延迟共用时间轴。顶层类目可点击跳入探索，世界动态展示真实分类新增、改名和迁移。
+2. **探索**：用分类树、派生对象种类、空间层级组织对象，条件以标签显示并支持移除。同一维度多选取并集，不同维度取交集；字段目录展示近期样本的覆盖率与混合类型，暂不支持按字段存在性过滤。名称搜索和游标分页定位对象，详情保留类型路径、动态属性和原始 JSON。
+3. **可信与系统**：查看逐项回执核对和批次状态像素条、隔离原因，以及真实 cgroup CPU、内存、数据目录和磁盘水位。非 Linux 容器环境缺少 cgroup 时显示不可用。
+
+只有选中具体参考系时才画二维空间散点，坐标还按明确单位隔离；最多返回 2,000 个最新对象，不能解释为无偏全量空间分布。没有位置的对象显示“未提供位置”；分类迁移不代表对象物理运动。
 
 ## 查询接口与探索范围
 
@@ -146,6 +145,7 @@ python3 -m venv .venv
 . .venv/bin/activate
 pip install -r server/requirements-dev.txt
 python -m pytest server/tests -q
+node scripts/test-frontend.cjs
 ```
 
 测试覆盖：事务提交与原始请求保真、并发重复幂等、同键冲突、整批回滚、动态属性、分类改名与迁移、环检测、版本缺口、轮次隔离、容量拒收、请求大小限制、非法 JSON、数值/Unicode 边界、应用重启后的持久化。
@@ -238,6 +238,18 @@ python3 scripts/crash-test.py --container observatory-app-1 --test-id recovery-n
 
 不要把发生器设定速率当作实际吞吐。`run-test.py` 用已确认的主流对象数除以运行时间计算平均实际吞吐，并单独记录发生器请求延迟；不虚构 p95/p99。
 
+## 干净克隆验收
+
+从公开仓库重新克隆并检出 `b885fcc8d854f689dbf705b1c026cd80abf768f1`，确认 Git 工作区干净后完成独立验收；证据见 [`results/clean-final-001/`](results/clean-final-001/)。
+
+- 46 项自动测试全部通过；测试使用已有宿主机虚拟环境。另执行 `docker compose -p observatory-clean-acceptance build --no-cache`，在 Linux arm64 镜像内重新安装全部生产依赖并构建成功。
+- 使用独立新数据卷，临时停止原应用，确保同一时间只运行一个受 4 CPU / 4 GiB 限制的应用容器；原数据卷保留。
+- 官方发生器目标 200 对象/秒，实际运行 20.004 秒，确认 4,000 个对象、200 个主批次，已确认批次缺失为 0；对账 `ok=true`、`complete=false`，未知项仍保留。
+- 14 个接口契约全部通过。容器重启后 4,000 个对象及已保存对账结果仍在，详见 [重启记录](results/clean-final-001/restart-check.json)。
+- 浏览器检查空状态、总览、对象详情、字段目录、可信与系统页面，控制台错误为 0。探索页分类树刷新仍有下述已知限制。
+
+这是该代码版本的安装与功能验收，不是新增容量压测。构建与环境口径见 [安装记录](results/clean-final-001/installation-check.json)，接口结果见 [契约检查](results/clean-final-001/contract-check.txt)。
+
 ## 回执对账的含义
 
 运行回执提供 `sent_bitmap`、`ack_bitmap`（`lsb0`）、确认批次/对象数、分类确认版本，以及重复和故障注入 bitmap。系统核对：
@@ -260,7 +272,7 @@ server/app/
   storage.py       SQLite schema、事务、幂等、分类和对象写入
   queries.py       查询、统计、资源指标
   reconcile.py     回执 bitmap 核对
-web/dist/          前端已构建产物（Claude 维护）
+web/dist/          直接托管的前端源码，无需构建（Claude 维护）
 contracts/         前后端接口契约与检查脚本
 scripts/           有界运行、回执获取与对账脚本
 server/tests/      正确性与恢复测试
@@ -291,6 +303,8 @@ DATA_DIR=./data STATIC_DIR=./web/dist uvicorn server.app.main:app --host 0.0.0.0
 - 容量保护、日志轮转和接近满盘的真实恢复测试应分别验证；未声称已达到 20 GiB 极限规模。
 - 对象属性可扩展；分类来自实时树，未把“星体/生物/航行器/外星智慧”四类硬编码成协议真相。
 - 前端轮询刷新，不是逐事件流式推送；空间样本有明确上限，不画所有对象，不把不同 frame/unit 混合。
+- 前端目前经过截图检查，没有自动化 UI 测试。字段目录只展示样本，不支持按字段存在性筛选；全量精确 facets 的查询延迟会随数据量增长，前端防抖并降低计数刷新频率。具体说明见 [前端文档](docs/frontend.md)。
+- 当前探索页分类树不会自动反映新接收的分类；需要切换到其他页面再返回探索页刷新。
 - 无对象版本字段时不提供虚构的历史更新、轨道关系或信号丢失叙事。
 - AI 参与编码、测试和文档；提交者仍需理解全部设计与取舍。
 
@@ -298,6 +312,11 @@ DATA_DIR=./data STATIC_DIR=./web/dist uvicorn server.app.main:app --host 0.0.0.0
 
 ## 协作与接口契约
 
-`contracts/API.md` 和 `contracts/fixtures` 是前后端联调标准；后端由 Codex 维护，`web/` 与前端构建产物由 Claude 维护。提交前在服务运行时执行 `node contracts/check.mjs http://localhost:8000`。契约检查通过不替代数据正确性和资源压测。
+`contracts/API.md` 和 `contracts/fixtures` 是前后端联调标准；后端由 Codex 维护，`web/` 前端源码由 Claude 维护。提交前在服务运行时执行 `node contracts/check.mjs http://localhost:8000`。契约检查通过不替代数据正确性和资源压测。
 
 样本目录中的 `probe-receipt.json` 来自早期“保存所有原文后 ACK”的侦察接收器，包含故障探针被 ACK 的记录；它用于说明原始协议，不应被当作正式业务校验通过证据。正式应用结果见 `results/`。
+
+
+### 最终前端修复验证
+
+验收中修复了探索页的异步请求边界：分页期间切换筛选不会混入旧结果，连续点击只发出一个分页请求；字段目录、空间图、详情与分页失败会显示错误和重试入口。`node scripts/test-frontend.cjs` 使用可控的延迟 Promise 和 DOM stub 验证竞态与 503 错误路径，另做真实浏览器功能检查；这不是完整的浏览器自动化测试套件。

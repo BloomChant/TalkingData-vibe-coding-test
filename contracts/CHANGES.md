@@ -58,3 +58,8 @@ R0–R5 已全部实现，保持 v1.0 字段兼容。新镜像在 correctness-00
 - R5：frames/positions 接受统一筛选；frames 增加 truncated（最多1000），quality 增加最多1024原文bytes的解码摘要 excerpt，截断UTF-8可出现替代字符。
 
 联调提醒：facets 为精确聚合，需要全量扫描；对 181600 对象的首次现场请求约 1.28 秒（仅单次检查，不是延迟分位数），建议切换筛选时加载/防抖，不要随速率图每秒全量刷新。fields 是有界探索，默认不等于全量字段统计。没有历史对账时 GET 返回 available=false，前端应提示先上传回执；当前两轮已上传，便于联调。
+
+
+## 最终集成修复
+
+用户明确授权 Codex 修复 `web/dist/views/explore.js`：分页请求增加加载锁与筛选代次检查，丢弃旧页/已离开页面的响应；字段、空间、详情和分页请求失败增加可重试状态。不改变 API 或分类树刷新语义。新增 `scripts/test-frontend.cjs` 验证异步竞态与失败路径。

@@ -1,0 +1,18 @@
+契约 v1.1 自检  http://localhost:8000  run=clean-final-001
+
+✓  runs            
+✓  overview        
+✓  tree            
+✓  objects         
+✓  object_detail   
+✓  events          
+✓  quality         
+✓  system          
+✓  frames          
+✓  positions       
+✓  objects_filtered
+✓  facets          
+✓  fields          
+✓  reconcile_last  
+
+✓ 基线全部符合契约

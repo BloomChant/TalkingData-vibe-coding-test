@@ -1,0 +1,10 @@
+{
+  "test_id": "clean-final-001",
+  "elapsed_seconds": 20.003602509,
+  "generator_acknowledged_main_objects": 4000,
+  "acknowledged_main_objects_per_second": 199.96398139786692,
+  "generator_main_request_average_latency_ms": 20.702922960000002,
+  "generator_main_request_max_latency_ms": 91.17675,
+  "reconciliation_ok": true,
+  "note": "Generator main-object counters exclude extra fault/duplicate injections. This is one measured run, not a guaranteed capacity."
+}

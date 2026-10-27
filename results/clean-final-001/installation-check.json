@@ -1,0 +1,34 @@
+{
+  "code_commit": "b885fcc8d854f689dbf705b1c026cd80abf768f1",
+  "clone_source": "https://github.com/BloomChant/TalkingData-vibe-coding-test",
+  "git_status_clean": true,
+  "backend_tests": {
+    "passed": 46,
+    "seconds": 1.46,
+    "runner": "Existing host test venv; production dependencies separately installed by uncached Docker build"
+  },
+  "docker_build": {
+    "no_cache": true,
+    "production_dependencies_freshly_installed": true,
+    "platform": "linux/arm64",
+    "base_image_digest_pinned": true
+  },
+  "fresh_volume": "observatory-clean-acceptance_observatory-data",
+  "application_limits": {
+    "cpus": 4,
+    "memory_bytes": 4294967296,
+    "memory_swap_bytes": 4294967296
+  },
+  "generator_test": "clean-final-001",
+  "browser_checks": [
+    "Empty database page",
+    "Overview with real incoming data",
+    "Explore object details",
+    "Bounded fields catalog"
+  ],
+  "restart_preserves_objects_and_reconciliation": true,
+  "notes": [
+    "Only one application container ran at a time; original data volume was preserved.",
+    "This is installation and functional acceptance, not another capacity benchmark."
+  ]
+}

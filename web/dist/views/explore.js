@@ -9,7 +9,7 @@ export async function render(el, c) {
   root = el; ctx = c;
   st = { f: { type_id: [], kind: [], frame: [], frame_kind: [], q: '' }, lens: 'tree', idx: null, facets: null,
          items: [], total: null, exact: true, cursor: null, sel: null, open: new Set(), openFrames: new Set(),
-         frames: null, fields: null, seq: 0 };
+         frames: null, fields: null, seq: 0, active: true, moreLoading: false };
   const pending = JSON.parse(sessionStorage.getItem('observatory.open') || 'null');
   sessionStorage.removeItem('observatory.open');
   if (pending?.view === 'explore' && pending.params?.type_id) st.f.type_id = [String(pending.params.type_id)];
@@ -41,16 +41,26 @@ export async function render(el, c) {
   root.querySelector('#ex-lens').addEventListener('click', onLensClick);
   root.querySelector('#ex-chips').addEventListener('click', onChipClick);
   root.querySelector('#ex-rows').addEventListener('click', (e) => { const tr = e.target.closest('tr[data-id]'); if (tr) select(tr.dataset.id); });
+  const owner = st;
   await loadTree();
-  refresh(0);
+  if (current(owner)) refresh(0);
 }
 
-export function dispose() { timers.forEach(clearTimeout); timers = []; }
+export function dispose() { if (st) st.active = false; timers.forEach(clearTimeout); timers = []; }
+
+const current = (owner, seq = owner.seq) => owner === st && owner.active && seq === owner.seq;
+function showRetry(el, err, retry) {
+  if (!el) return;
+  el.innerHTML = `<div class="ex-empty">加载失败：${esc(err.message || err)} <button type="button">重试</button></div>`;
+  el.querySelector('button').addEventListener('click', retry);
+}
 
 const params = (extra = {}) => ({ type_id: st.f.type_id, kind: st.f.kind, frame: st.f.frame, frame_kind: st.f.frame_kind, q: st.f.q, ...extra });
 
 async function loadTree() {
+  const owner = st;
   const t = await ctx.get('/api/tree');
+  if (!current(owner)) return;
   const nodes = t?.nodes ?? [];
   const byId = new Map(nodes.map((n) => [n.id, n]));
   const kids = new Map();
@@ -71,6 +81,9 @@ async function loadTree() {
 }
 
 function refresh(delay = 250) {
+  ++st.seq; // Invalidate pending pages immediately, including during the debounce.
+  st.moreLoading = false;
+  root.querySelector('#ex-more-wrap').innerHTML = '';
   timers.forEach(clearTimeout);
   timers = [setTimeout(load, delay)];
   root.querySelector('#ex-mid')?.classList.add('ex-busy');
@@ -79,13 +92,13 @@ function refresh(delay = 250) {
 }
 
 async function load() {
-  const seq = ++st.seq;
+  const owner = st, seq = st.seq;
   try {
     const [facets, objs] = await Promise.all([
       ctx.get('/api/facets', params({ dims: 'type,kind,frame_kind,galaxy' })),
       ctx.get('/api/objects', params({ limit: 50 })),
     ]);
-    if (seq !== st.seq) return;
+    if (!current(owner, seq)) return;
     st.facets = facets;
     st.items = objs?.items ?? [];
     st.cursor = objs?.next_cursor ?? null;
@@ -94,9 +107,9 @@ async function load() {
     renderSummary(); renderRows(); renderLens(); renderScatter();
     loadLensData(seq);
   } catch (err) {
-    root.querySelector('#ex-total-note').textContent = `加载失败：${err.message}`;
+    if (current(owner, seq)) showRetry(root.querySelector('#ex-total-note'), err, () => refresh(0));
   } finally {
-    if (seq === st.seq) {
+    if (current(owner, seq)) {
       root.querySelector('#ex-mid')?.classList.remove('ex-busy');
       root.querySelector('#ex-left')?.classList.remove('ex-busy');
     }
@@ -104,13 +117,17 @@ async function load() {
 }
 
 async function loadLensData(seq = st.seq) {
-  if (st.lens === 'space') {
-    const frames = await ctx.get('/api/frames', params());
-    if (seq === st.seq) { st.frames = frames; renderLens(); }
-  } else if (st.lens === 'fields') {
-    st.fields = 'loading'; renderLens();
-    const fields = await ctx.get('/api/fields', params({ sample: 2000 }));
-    if (seq === st.seq) { st.fields = fields; renderLens(); }
+  const owner = st, lens = st.lens;
+  if (lens !== 'space' && lens !== 'fields') return;
+  try {
+    if (lens === 'fields') { st.fields = 'loading'; renderLens(); }
+    const data = await ctx.get(lens === 'space' ? '/api/frames' : '/api/fields', params(lens === 'fields' ? { sample: 2000 } : {}));
+    if (!current(owner, seq) || st.lens !== lens) return;
+    if (!data) throw new Error('数据暂不可用');
+    st[lens === 'space' ? 'frames' : 'fields'] = data;
+    renderLens();
+  } catch (err) {
+    if (current(owner, seq) && st.lens === lens) showRetry(root.querySelector('#ex-lens'), err, () => loadLensData());
   }
 }
 
@@ -173,9 +190,22 @@ function renderRows() {
   body.innerHTML = st.items.length ? st.items.map(rowHtml).join('') : `<tr><td colspan="4" class="ex-empty">没有满足条件的对象</td></tr>`;
   const wrap = root.querySelector('#ex-more-wrap');
   wrap.innerHTML = st.cursor != null ? '<button class="ex-more">加载更多</button>' : '';
-  wrap.querySelector('button')?.addEventListener('click', async () => {
-    const more = await ctx.get('/api/objects', params({ limit: 50, cursor: st.cursor }));
-    st.items.push(...(more?.items ?? [])); st.cursor = more?.next_cursor ?? null; renderRows();
+  wrap.querySelector('button')?.addEventListener('click', async (e) => {
+    if (st.moreLoading) return;
+    const owner = st, seq = st.seq, button = e.currentTarget;
+    st.moreLoading = true; button.disabled = true; button.textContent = '加载中…';
+    try {
+      const more = await ctx.get('/api/objects', params({ limit: 50, cursor: st.cursor }));
+      if (!current(owner, seq)) return;
+      if (!more) throw new Error('数据暂不可用');
+      st.items.push(...(more.items ?? [])); st.cursor = more.next_cursor ?? null; renderRows();
+    } catch (err) {
+      if (current(owner, seq)) {
+        button.textContent = `加载失败，点击重试：${err.message}`;
+      }
+    } finally {
+      if (current(owner, seq)) { st.moreLoading = false; button.disabled = false; }
+    }
   });
 }
 
@@ -273,16 +303,25 @@ function fieldsHtml() {
 }
 
 async function renderScatter() {
-  const wrap = root.querySelector('#ex-scatter');
+  const owner = st, seq = st.seq, wrap = root.querySelector('#ex-scatter');
+  try { await drawScatter(owner, seq, wrap); }
+  catch (err) { if (current(owner, seq)) showRetry(wrap, err, renderScatter); }
+}
+
+async function drawScatter(owner, seq, wrap) {
   const frame = st.f.frame.length === 1 ? st.f.frame[0] : null;
   if (!frame) { wrap.innerHTML = ''; return; }
   const frames = st.frames ?? await ctx.get('/api/frames', params());
+  if (!current(owner, seq)) return;
+  if (!frames) throw new Error('参考系暂不可用');
   const exact = (frames?.frames ?? []).find((f) => f.frame_id === frame);
   if (!exact) {
     wrap.innerHTML = `<div class="card ex-scatter muted">「${esc(frame)}」是上级空间；坐标只在单一参考系内可比，请展开到具体参考系查看分布。</div>`;
     return;
   }
   const pos = await ctx.get('/api/positions', params({ frame_id: exact.frame_id, unit: exact.unit, limit: 2000 }));
+  if (!current(owner, seq)) return;
+  if (!pos) throw new Error('位置数据暂不可用');
   const pts = pos?.points ?? [];
   wrap.innerHTML = `<div class="card ex-scatter"><div class="card-title">${esc(exact.frame_id)} · ${esc(FRAME_KIND[exact.frame_kind] ?? exact.frame_kind)} · ${ctx.fmt.n(pts.length)} 个点${pos?.sampled ? '（最新接收的样本）' : ''}</div><canvas></canvas></div>`;
   const canvas = wrap.querySelector('canvas');
@@ -335,12 +374,18 @@ function attrHtml(v) {
 }
 
 async function select(id) {
+  const owner = st;
   st.sel = id;
   root.querySelectorAll('#ex-rows tr').forEach((tr) => tr.classList.toggle('sel', tr.dataset.id === id));
   const el = root.querySelector('#ex-detail');
   el.innerHTML = '<div class="ex-empty">加载中…</div>';
-  const d = await ctx.get(`/api/objects/${encodeURIComponent(id)}`);
-  if (st.sel !== id) return;
+  let d;
+  try { d = await ctx.get(`/api/objects/${encodeURIComponent(id)}`); }
+  catch (err) {
+    if (current(owner) && st.sel === id) showRetry(el, err, () => select(id));
+    return;
+  }
+  if (!current(owner) || st.sel !== id) return;
   if (!d) { el.innerHTML = '<div class="ex-empty">对象不存在</div>'; return; }
   const o = d.object;
   const path = st.idx?.pathOf(o.type_id) ?? [];
