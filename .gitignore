@@ -1,0 +1,19 @@
+node_modules/
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+.venv/
+
+# runtime data
+data/
+generator-runs/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# generator image (large; lives in the task package)
+*.tar
