@@ -1,0 +1,23 @@
+{
+  "kind": "types",
+  "test_id": "probe-e66cf7ae83",
+  "revision": 2,
+  "changes": [
+    {
+      "op": "create",
+      "node": {
+        "type_id": 25,
+        "parent_id": 17,
+        "name": "深度观测组 · 25"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 26,
+        "parent_id": 20,
+        "name": "高频组 · 26"
+      }
+    }
+  ]
+}

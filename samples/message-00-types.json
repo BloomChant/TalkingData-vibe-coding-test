@@ -1,0 +1,199 @@
+{
+  "kind": "types",
+  "test_id": "probe-e66cf7ae83",
+  "revision": 1,
+  "changes": [
+    {
+      "op": "create",
+      "node": {
+        "type_id": 1,
+        "parent_id": 0,
+        "name": "万物"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 2,
+        "parent_id": 1,
+        "name": "设备"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 3,
+        "parent_id": 1,
+        "name": "文档"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 4,
+        "parent_id": 1,
+        "name": "商品"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 5,
+        "parent_id": 1,
+        "name": "样本"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 6,
+        "parent_id": 1,
+        "name": "任务"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 7,
+        "parent_id": 1,
+        "name": "观测"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 8,
+        "parent_id": 1,
+        "name": "资产"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 9,
+        "parent_id": 1,
+        "name": "服务"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 10,
+        "parent_id": 1,
+        "name": "星体"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 11,
+        "parent_id": 1,
+        "name": "生物"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 12,
+        "parent_id": 1,
+        "name": "航行器"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 13,
+        "parent_id": 2,
+        "name": "巡检机器人 · 13"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 14,
+        "parent_id": 2,
+        "name": "边缘网关 · 14"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 15,
+        "parent_id": 5,
+        "name": "水质样本 · 15"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 16,
+        "parent_id": 12,
+        "name": "航行器档案 · 16"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 17,
+        "parent_id": 10,
+        "name": "远域星区 · 17"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 18,
+        "parent_id": 17,
+        "name": "低亮度组 · 18"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 19,
+        "parent_id": 17,
+        "name": "周期观测组 · 19"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 20,
+        "parent_id": 7,
+        "name": "光谱观测 · 20"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 21,
+        "parent_id": 4,
+        "name": "安全装备 · 21"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 22,
+        "parent_id": 4,
+        "name": "办公用品 · 22"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 23,
+        "parent_id": 3,
+        "name": "审计报告 · 23"
+      }
+    },
+    {
+      "op": "create",
+      "node": {
+        "type_id": 24,
+        "parent_id": 12,
+        "name": "载具观测 · 24"
+      }
+    }
+  ]
+}

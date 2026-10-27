@@ -1,0 +1,9 @@
+**
+!server/
+!server/__init__.py
+!server/requirements.txt
+!server/app/
+!server/app/*.py
+!web/
+!web/dist/
+!web/dist/**

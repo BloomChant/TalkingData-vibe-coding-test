@@ -1,0 +1,10 @@
+{
+  "test_id": "correctness-001",
+  "elapsed_seconds": 120.005213389,
+  "generator_acknowledged_main_objects": 22200,
+  "acknowledged_main_objects_per_second": 184.99196304112326,
+  "generator_main_request_average_latency_ms": 14.41712860810811,
+  "generator_main_request_max_latency_ms": 166.55375,
+  "reconciliation_ok": true,
+  "note": "Generator main-object counters exclude extra fault/duplicate injections. This is one measured run, not a guaranteed capacity."
+}

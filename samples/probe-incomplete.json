@@ -1,0 +1,1135 @@
+{
+  "kind": "objects",
+  "test_id": "probe-e66cf7ae83",
+  "batch_id": 328,
+  "tree_revision": 6,
+  "objects": [
+    {
+      "id": "probe-e66cf7ae83-6560",
+      "sequence": 6560,
+      "type_id": 2,
+      "name": "监测终端 #6560",
+      "timestamp_ms": 1792627201139,
+      "position": {
+        "frame_id": "galaxy-1/system-3/world-0",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": 221810,
+        "y": 100460,
+        "z": 60
+      },
+      "attributes": {
+        "model": "D-12",
+        "state": "online",
+        "temperature_c": 19.83,
+        "battery_pct": 44,
+        "source": "Central Lab",
+        "tags": [
+          "field",
+          "试运行"
+        ],
+        "reviewer": "自动巡检",
+        "calibration": {
+          "offset_c": -0.17,
+          "method": "reference",
+          "valid": true
+        },
+        "readings": [
+          28.03,
+          66.06
+        ],
+        "location": {
+          "zone": "华东观测站",
+          "position": {
+            "lat": 30.4,
+            "lon": 121.33
+          }
+        },
+        "connection": "cellular",
+        "certified": true,
+        "sensor_group_2": {
+          "score": 6.67,
+          "accepted": true
+        },
+        "diagnostic_2": true,
+        "quality_score": 81.62,
+        "description": "ref=6560 trace=e4cdbd044aac81a; 本次数据来自定期检查，记录包含中文与 English 内容 🌏。consistent with the previous observation. 测试路径 C:\\data\\objects，multiple samples were compared; 正常范围内存在小幅波动，标签包括现场、实验与归档；正常范围内存在小幅波动，notes\tverified; 记录包含中文与 English 内容 🌏。记录包含中文与 English 内容 🌏。标签包括现场、实验与归档；"
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6561",
+      "sequence": 6561,
+      "type_id": 33,
+      "name": "异常信号 #6561",
+      "timestamp_ms": 1792627199889,
+      "position": {
+        "frame_id": "galaxy-0/system-1/world-0",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": -83670,
+        "y": -160260,
+        "z": 930
+      },
+      "attributes": {
+        "metric": "voltage",
+        "unit": "V",
+        "value": 217.02,
+        "anomalous": false,
+        "source": "南部仓库",
+        "tags": [
+          "常规",
+          "remote"
+        ],
+        "instrument": "实验室仪器",
+        "samples": [
+          72.13,
+          85.5,
+          81.02,
+          71.57,
+          8.93,
+          34.51
+        ],
+        "peaks": [
+          {
+            "code": "C-31",
+            "value": 50.55
+          },
+          {
+            "code": "C-32",
+            "value": 46.29
+          }
+        ],
+        "confidence": 97.69,
+        "sampling": "continuous",
+        "reviewed": false,
+        "intervals": {
+          "count": 11,
+          "last": {
+            "result": "ok",
+            "notes": "复核完成\nnext check"
+          }
+        },
+        "signal_band_21": 20.11,
+        "quality_score": 78.15,
+        "description": "ref=6561 trace=1901d7c4308677d1; updated measurements are available. 建议按照计划继续观察。consistent with the previous observation. multiple samples were compared; 本次观察具有独立编号；第一行记录\n第二行说明。operator requested a follow-up review; 局部异常需要结合上下文判断；notes\tverified; 记录包含中文与 English 内容 🌏。备注：\"需要复核\"；局部异常需要结合上下文判断；局部异常需要结合上下文判断；本次观察具有独立编号；本次观察具有独立编号；"
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6562",
+      "sequence": 6562,
+      "type_id": 25,
+      "name": "小行星 #6562",
+      "timestamp_ms": 1792627200711,
+      "position": {
+        "frame_id": "galaxy-0",
+        "frame_kind": "galactic",
+        "unit": "ly",
+        "x": 8580,
+        "y": -7030,
+        "z": -225
+      },
+      "attributes": {
+        "body_kind": "asteroid",
+        "shape": {
+          "axes_km": [
+            26.41,
+            19.8,
+            13.2
+          ]
+        },
+        "composition": "rocky",
+        "rotation_hours": 11.03,
+        "source": "华东观测站",
+        "tags": [
+          "field",
+          "重点"
+        ],
+        "reviewer": "自动巡检",
+        "coordinates": {
+          "ra_deg": 78.51,
+          "dec_deg": 24.44,
+          "frame": "ICRS"
+        },
+        "detections": [
+          {
+            "code": "C-52",
+            "value": 13.64
+          },
+          {
+            "code": "C-53",
+            "value": 44.58
+          }
+        ],
+        "observatory": {
+          "zone": "华南基地",
+          "position": {
+            "lat": 32.49,
+            "lon": 120.66
+          }
+        },
+        "classification_confidence": 84.94,
+        "observation_band": "visible",
+        "confirmed": true,
+        "signal_to_noise": 172.45,
+        "spectral_feature_19": true,
+        "orbit_review_19": [
+          25.41,
+          44.48
+        ],
+        "quality_score": 85.65,
+        "description": "ref=6562 trace=6628afe21fb31e34; 现场记录显示运行状态稳定；该条目关联同批次的其他发现。测试路径 C:\\data\\objects，本次数据来自定期检查，该条目关联同批次的其他发现。采样结果已进入复核流程。需关注环境温度与测量误差；notes\tverified; component inspection completed; collector=mobile unit; consistent with the previous observation. 记录包含中文与 English 内容 🌏。采样结果已进入复核流程。updated measurements are available. "
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6563",
+      "sequence": 6563,
+      "type_id": 18,
+      "name": "彗星 #6563",
+      "timestamp_ms": 1792627201669,
+      "position": {
+        "frame_id": "galaxy-3",
+        "frame_kind": "galactic",
+        "unit": "ly",
+        "x": -16670,
+        "y": 12720,
+        "z": 555
+      },
+      "attributes": {
+        "body_kind": "comet",
+        "nucleus_radius_km": 18.99,
+        "heliocentric_distance_au": 15.84,
+        "active": false,
+        "tail_length_km": 0,
+        "ice_fraction_pct": 78.05,
+        "source": "West Hub",
+        "tags": [
+          "常规",
+          "lab"
+        ],
+        "reviewer": "值班团队",
+        "catalogue": "深空观测目录",
+        "coordinates": {
+          "ra_deg": 248.55,
+          "dec_deg": 53.12,
+          "frame": "ICRS"
+        },
+        "spectral_samples": [
+          93.65,
+          65.52,
+          2.58,
+          53.16
+        ],
+        "classification_confidence": 91.79,
+        "signal_to_noise": 332.0,
+        "spectral_feature_12": [
+          2.63,
+          59.98
+        ],
+        "orbit_review_12": [
+          {
+            "label": "primary",
+            "reading": 2.63
+          },
+          {
+            "label": "reference",
+            "reading": 0
+          }
+        ],
+        "quality_score": 91.17,
+        "description": "ref=6563 trace=2a57963ae9011f14; multiple samples were compared; 对象保留原始记录和来源信息。本次数据来自定期检查，备注：\"需要复核\"；对象保留原始记录和来源信息。采样结果已进入复核流程。对象保留原始记录和来源信息。operator requested a follow-up review; 标签包括现场、实验与归档；operator requested a follow-up review; 对象保留原始记录和来源信息。备注：\"需要复核\"；现场记录显示运行状态稳定；需关注环境温度与测量误差；该条目关联同批次的其他发现。备注：\"需要复核\"；测试路径 C:\\data\\objects，"
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6564",
+      "sequence": 6564,
+      "type_id": 16,
+      "name": "船舶 #6564",
+      "timestamp_ms": 1792627200115,
+      "position": {
+        "frame_id": "galaxy-1/system-3/world-0",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": 39320,
+        "y": -64240,
+        "z": 0
+      },
+      "attributes": {
+        "vehicle_kind": "ship",
+        "cargo_capacity_t": 14167,
+        "cargo_t": 2975,
+        "load_pct": 21,
+        "draft_m": 3.68,
+        "speed_knots": 13.63,
+        "source": "南部仓库",
+        "tags": [
+          "lab",
+          "夜间"
+        ],
+        "reviewer": "自动巡检",
+        "operator": "联合科考队",
+        "dimensions": {
+          "length_m": 191.67,
+          "width_m": 38.33,
+          "height_m": 19.16
+        },
+        "telemetry_samples": [
+          28.29,
+          31.69
+        ],
+        "systems": [
+          {
+            "code": "C-44",
+            "value": 34.36
+          }
+        ],
+        "home_base": {
+          "zone": "Central Lab",
+          "position": {
+            "lat": 31.8,
+            "lon": 121.44
+          }
+        },
+        "readiness_score": 70.92,
+        "mission": "rescue",
+        "operational": true,
+        "maintenance_records": {
+          "count": 6,
+          "last": {
+            "result": "ok",
+            "notes": "复核完成\nnext check"
+          }
+        },
+        "subsystem_10": 7.71,
+        "mission_check_10": {
+          "score": 7.71,
+          "accepted": true
+        },
+        "quality_score": 74.28,
+        "description": "ref=6564 trace=4ac493d19599761c; 局部异常需要结合上下文判断；对象保留原始记录和来源信息。现场记录显示运行状态稳定；现场记录显示运行状态稳定；"
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6565",
+      "sequence": 6565,
+      "type_id": 23,
+      "name": "观测报告 #6565",
+      "timestamp_ms": 1792627201577,
+      "position": null,
+      "attributes": {
+        "format": "report",
+        "language": "en",
+        "word_count": 485,
+        "pages": 1,
+        "source": "West Hub",
+        "tags": [
+          "正常"
+        ],
+        "reviewer": "张研究员",
+        "citations": [
+          {
+            "code": "C-10",
+            "value": 56.26
+          },
+          {
+            "code": "C-11",
+            "value": 63.11
+          },
+          {
+            "code": "C-12",
+            "value": 76.41
+          }
+        ],
+        "archive": {
+          "zone": "移动采集站",
+          "position": {
+            "lat": 30.05,
+            "lon": 122.51
+          }
+        },
+        "document_no": "R-29e086725372e79b",
+        "signed": true,
+        "section_17": 0.32,
+        "review_block_17": {
+          "score": 0.32,
+          "accepted": true
+        },
+        "quality_score": 94.09,
+        "description": "ref=6565 trace=e1a1cdf4d02d0071; 现场记录显示运行状态稳定；consistent with the previous observation. 本次数据来自定期检查，采样结果已进入复核流程。正常范围内存在小幅波动，备注：\"需要复核\"；第一行记录\n第二行说明。测试路径 C:\\data\\objects，consistent with the previous observation. 正常范围内存在小幅波动，本次观察具有独立编号；本次数据来自定期检查，建议按照计划继续观察。标签包括现场、实验与归档；正常范围内存在小幅波动，"
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6566",
+      "sequence": 6566,
+      "type_id": 20,
+      "name": "周期观测 #6566",
+      "timestamp_ms": 1792627200611,
+      "position": {
+        "frame_id": "galaxy-0/system-0/world-0",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": -123990,
+        "y": 76200,
+        "z": 105
+      },
+      "attributes": {
+        "metric": "temperature",
+        "unit": "C",
+        "value": 21.98,
+        "anomalous": false,
+        "source": "华东观测站",
+        "tags": [
+          "重点",
+          "低温"
+        ],
+        "reviewer": "值班团队",
+        "frequency_hz": 217.97,
+        "signal_band_14": "field",
+        "calibration_note_14": "field",
+        "quality_score": 87.65,
+        "description": "ref=6566 trace=13cbb4823198b74; multiple samples were compared; 备注：\"需要复核\"；现场记录显示运行状态稳定；对象保留原始记录和来源信息。updated measurements are available. collector=mobile unit; component inspection completed; 本次观察具有独立编号；calibration checked; 对象保留原始记录和来源信息。本次数据来自定期检查，正常范围内存在小幅波动，局部异常需要结合上下文判断；operator requested a follow-up review; operator requested a follow-up review; component inspection completed; notes\tverified; calibration checked; collector=mobile unit; 对象保留原始记录和来源信息。consistent with the previous observation. 现场记录显示运行状态稳定；正常范围内存在小幅波动，collector=mobile unit; 正常范围内存在小幅波动，notes\tverified; quality controls passed. 备注：\"需要复核\"；component inspection completed; 采样结果已进入复核流程。需关注环境温度与测量误差；测试路径 C:\\data\\objects，collector=mobile unit; 备注：\"需要复核\"；consistent with the previous observation. "
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6567",
+      "sequence": 6567,
+      "type_id": 16,
+      "name": "船舶 #6567",
+      "timestamp_ms": 1792627201436,
+      "position": {
+        "frame_id": "galaxy-1/system-3/world-0",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": 38370,
+        "y": -63870,
+        "z": 0
+      },
+      "attributes": {
+        "vehicle_kind": "ship",
+        "cargo_capacity_t": 14167,
+        "cargo_t": 5241,
+        "load_pct": 37,
+        "draft_m": 4.96,
+        "speed_knots": 16.8,
+        "source": "南部仓库",
+        "tags": [
+          "试运行"
+        ],
+        "reviewer": "自动巡检",
+        "operator": "联合科考队",
+        "dimensions": {
+          "length_m": 191.67,
+          "width_m": 38.33,
+          "height_m": 19.16
+        },
+        "telemetry_samples": [
+          85.62,
+          98.21,
+          31.22,
+          98.92,
+          49.98
+        ],
+        "systems": [
+          {
+            "code": "C-39",
+            "value": 49.35
+          },
+          {
+            "code": "C-40",
+            "value": 35.34
+          },
+          {
+            "code": "C-41",
+            "value": 68.88
+          }
+        ],
+        "home_base": {
+          "zone": "Central Lab",
+          "position": {
+            "lat": 32.24,
+            "lon": 121.79
+          }
+        },
+        "readiness_score": 99.35,
+        "mission": "transport",
+        "operational": true,
+        "maintenance_records": {
+          "count": 3,
+          "last": {
+            "result": "ok",
+            "notes": "复核完成\nnext check"
+          }
+        },
+        "subsystem_10": 31.52,
+        "mission_check_10": {
+          "score": 31.52,
+          "accepted": true
+        },
+        "quality_score": 94.78,
+        "description": "ref=6567 trace=328b1970241803cf; collector=mobile unit; calibration checked; 对象保留原始记录和来源信息。component inspection completed; collector=mobile unit; 本次数据来自定期检查，记录包含中文与 English 内容 🌏。对象保留原始记录和来源信息。calibration checked; collector=mobile unit; "
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6568",
+      "sequence": 6568,
+      "type_id": 15,
+      "name": "生物切片 #6568",
+      "timestamp_ms": 1792627200958,
+      "position": {
+        "frame_id": "galaxy-1/system-3/world-6",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": -80000,
+        "y": -160000,
+        "z": 900
+      },
+      "attributes": {
+        "material": "biological",
+        "weight_g": 68.59,
+        "purity_pct": 97.61,
+        "hazardous": false,
+        "source": "移动采集站",
+        "tags": [
+          "待复核",
+          "field"
+        ],
+        "reviewer": null,
+        "sample_count": 32,
+        "composition": {
+          "primary": "tissue",
+          "fraction_pct": 97.99,
+          "trace_elements": [
+            "Fe",
+            "Mg"
+          ]
+        },
+        "spectra": [
+          30.52
+        ],
+        "measurements": [
+          {
+            "code": "C-25",
+            "value": 40.89
+          },
+          {
+            "code": "C-26",
+            "value": 46.25
+          },
+          {
+            "code": "C-27",
+            "value": 56.04
+          }
+        ],
+        "collection_site": {
+          "zone": "West Hub",
+          "position": {
+            "lat": 31.87,
+            "lon": 121.92
+          }
+        },
+        "sample_no": "R-9a97ecea516d809f",
+        "preservation": "frozen",
+        "assay_f": 66.25,
+        "lab_result_f": [
+          66.25,
+          71.81
+        ],
+        "quality_score": 96.68,
+        "description": "ref=6568 trace=dadd370d5244b84f; 第一行记录\n第二行说明。consistent with the previous observation. 记录包含中文与 English 内容 🌏。consistent with the previous observation. 对象保留原始记录和来源信息。需关注环境温度与测量误差；updated measurements are available. quality controls passed. 需关注环境温度与测量误差；multiple samples were compared; 标签包括现场、实验与归档；采样结果已进入复核流程。现场记录显示运行状态稳定；notes\tverified; 需关注环境温度与测量误差；consistent with the previous observation. calibration checked; collector=mobile unit; 建议按照计划继续观察。updated measurements are available. 第一行记录\n第二行说明。quality controls passed. component inspection completed; 本次数据来自定期检查，operator requested a follow-up review; 本次观察具有独立编号；测试路径 C:\\data\\objects，需关注环境温度与测量误差；updated measurements are available. 正常范围内存在小幅波动，标签包括现场、实验与归档；需关注环境温度与测量误差；第一行记录\n第二行说明。测试路径 C:\\data\\objects，operator requested a follow-up review; 局部异常需要结合上下文判断；建议按照计划继续观察。operator requested a follow-up review; quality controls passed. notes\tverified; 局部异常需要结合上下文判断；operator requested a follow-up review; 采样结果已进入复核流程。测试路径 C:\\data\\objects，quality controls passed. component inspection completed; 需关注环境温度与测量误差；calibration checked; updated measurements are available. 需关注环境温度与测量误差；正常范围内存在小幅波动，标签包括现场、实验与归档；备注：\"需要复核\"；该条目关联同批次的其他发现。标签包括现场、实验与归档；calibration checked; 对象保留原始记录和来源信息。该条目关联同批次的其他发现。notes\tverified; 记录包含中文与 English 内容 🌏。本次数据来自定期检查，标签包括现场、实验与归档；局部异常需要结合上下文判断；采样结果已进入复核流程。component inspection completed; 该条目关联同批次的其他发现。multiple samples were compared; 第一行记录\n第二行说明。正常范围内存在小幅波动，局部异常需要结合上下文判断；operator requested a follow-up review; 需关注环境温度与测量误差；updated measurements are available. notes\tverified; collector=mobile unit; 需关注环境温度与测量误差；对象保留原始记录和来源信息。采样结果已进入复核流程。updated measurements are available. component inspection completed; component inspection completed; quality controls passed. updated measurements are available. 建议按照计划继续观察。建议按照计划继续观察。记录包含中文与 English 内容 🌏。operator requested a follow-up review; operator requested a follow-up review; 备注：\"需要复核\"；operator requested a follow-up review; component inspection completed; 局部异常需要结合上下文判断；测试路径 C:\\data\\objects，multiple samples were compared; updated measurements are available. multiple samples were compared; collector=mobile unit; updated measurements are available. updated measurements are available. 本次观察具有独立编号；现场记录显示运行状态稳定；collector=mobile unit; 需关注环境温度与测量误差；现场记录显示运行状态稳定；component inspection completed; 局部异常需要结合上下文判断；标签包括现场、实验与归档；采样结果已进入复核流程。本次数据来自定期检查，calibration checked; collector=mobile unit; 建议按照计划继续观察。collector=mobile unit; updated measurements are available. 本次数据来自定期检查，测试路径 C:\\data\\objects，该条目关联同批次的其他发现。第一行记录\n第二行说明。quality controls passed. notes\tverified; 第一行记录\n第二行说明。记录包含中文与 English 内容 🌏。consistent with the previous observation. multiple samples were compared; updated measurements are available. consistent with the previous observation. multiple samples were compared; consistent with the previous observation. 需关注环境温度与测量误差；对象保留原始记录和来源信息。测试路径 C:\\data\\objects，该条目关联同批次的其他发现。updated measurements are available. 对象保留原始记录和来源信息。operator requested a follow-up review; 局部异常需要结合上下文判断；consistent with the previous observation. "
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6569",
+      "sequence": 6569,
+      "type_id": 13,
+      "name": "监测终端 #6569",
+      "timestamp_ms": 1792627200852,
+      "position": {
+        "frame_id": "galaxy-3/system-2/world-1",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": -121680,
+        "y": 79270,
+        "z": 100
+      },
+      "attributes": {
+        "model": "D-8",
+        "state": "online",
+        "temperature_c": 22.26,
+        "battery_pct": 42,
+        "source": "华北中心",
+        "tags": [
+          "field",
+          "field"
+        ],
+        "reviewer": "Operator A",
+        "readings": [
+          57.1,
+          39.95,
+          3.74,
+          70.37,
+          46.41
+        ],
+        "location": {
+          "zone": "南部仓库",
+          "position": {
+            "lat": 30.39,
+            "lon": 122.51
+          }
+        },
+        "serial": "R-d2ac70be49fba662",
+        "connection": "wifi",
+        "sensor_group_d": [
+          {
+            "label": "primary",
+            "reading": 83.34
+          },
+          {
+            "label": "reference",
+            "reading": 0
+          }
+        ],
+        "diagnostic_d": "archive",
+        "quality_score": 94.36,
+        "description": "ref=6569 trace=f5c1d4e09d705114; 现场记录显示运行状态稳定；component inspection completed; quality controls passed. consistent with the previous observation. calibration checked; 需关注环境温度与测量误差；该条目关联同批次的其他发现。建议按照计划继续观察。component inspection completed; 采样结果已进入复核流程。calibration checked; 现场记录显示运行状态稳定；局部异常需要结合上下文判断；该条目关联同批次的其他发现。collector=mobile unit; consistent with the previous observation. 需关注环境温度与测量误差；component inspection completed; consistent with the previous observation. calibration checked; 需关注环境温度与测量误差；component inspection completed; 第一行记录\n第二行说明。本次观察具有独立编号；现场记录显示运行状态稳定；该条目关联同批次的其他发现。multiple samples were compared; 本次数据来自定期检查，该条目关联同批次的其他发现。multiple samples were compared; calibration checked; 正常范围内存在小幅波动，updated measurements are available. 采样结果已进入复核流程。calibration checked; 对象保留原始记录和来源信息。标签包括现场、实验与归档；notes\tverified; 正常范围内存在小幅波动，multiple samples were compared; calibration checked; collector=mobile unit; calibration checked; 现场记录显示运行状态稳定；现场记录显示运行状态稳定；本次数据来自定期检查，该条目关联同批次的其他发现。对象保留原始记录和来源信息。consistent with the previous observation. 该条目关联同批次的其他发现。multiple samples were compared; 测试路径 C:\\data\\objects，operator requested a follow-up review; updated measurements are available. 该条目关联同批次的其他发现。备注：\"需要复核\"；本次数据来自定期检查，测试路径 C:\\data\\objects，现场记录显示运行状态稳定；该条目关联同批次的其他发现。本次观察具有独立编号；updated measurements are available. operator requested a follow-up review; collector=mobile unit; notes\tverified; 备注：\"需要复核\"；updated measurements are available. 该条目关联同批次的其他发现。建议按照计划继续观察。建议按照计划继续观察。测试路径 C:\\data\\objects，operator requested a follow-up review; 该条目关联同批次的其他发现。测试路径 C:\\data\\objects，notes\tverified; 采样结果已进入复核流程。测试路径 C:\\data\\objects，备注：\"需要复核\"；对象保留原始记录和来源信息。测试路径 C:\\data\\objects，第一行记录\n第二行说明。multiple samples were compared; 需关注环境温度与测量误差；multiple samples were compared; 第一行记录\n第二行说明。notes\tverified; calibration checked; 该条目关联同批次的其他发现。该条目关联同批次的其他发现。第一行记录\n第二行说明。multiple samples were compared; multiple samples were compared; calibration checked; quality controls passed. consistent with the previous observation. 备注：\"需要复核\"；正常范围内存在小幅波动，notes\tverified; updated measurements are available. 记录包含中文与 English 内容 🌏。本次数据来自定期检查，component inspection completed; 本次观察具有独立编号；"
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6570",
+      "sequence": 6570,
+      "type_id": 2,
+      "name": "监测终端 #6570",
+      "timestamp_ms": 1792627200766,
+      "position": {
+        "frame_id": "galaxy-1/system-3/world-0",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": 215080,
+        "y": 102450,
+        "z": 35
+      },
+      "attributes": {
+        "model": "D-12",
+        "state": "online",
+        "temperature_c": 23.34,
+        "battery_pct": 25,
+        "source": "Central Lab",
+        "tags": [
+          "低温",
+          "夜间"
+        ],
+        "reviewer": "张研究员",
+        "calibration": {
+          "offset_c": 0.22,
+          "method": "reference",
+          "valid": true
+        },
+        "readings": [
+          52.84
+        ],
+        "location": {
+          "zone": "West Hub",
+          "position": {
+            "lat": 30.27,
+            "lon": 122.16
+          }
+        },
+        "connection": "cellular",
+        "certified": true,
+        "sensor_group_2": {
+          "score": 38.67,
+          "accepted": true
+        },
+        "diagnostic_2": true,
+        "quality_score": 76.77,
+        "description": "ref=6570 trace=afd6601ae2493492; calibration checked; 需关注环境温度与测量误差；consistent with the previous observation. 现场记录显示运行状态稳定；quality controls passed. 现场记录显示运行状态稳定；现场记录显示运行状态稳定；第一行记录\n第二行说明。局部异常需要结合上下文判断；标签包括现场、实验与归档；标签包括现场、实验与归档；备注：\"需要复核\"；对象保留原始记录和来源信息。collector=mobile unit; multiple samples were compared; 建议按照计划继续观察。本次观察具有独立编号；"
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6571",
+      "sequence": 6571,
+      "type_id": 32,
+      "name": "陆生动物 #6571",
+      "timestamp_ms": 1792627199921,
+      "position": {
+        "frame_id": "galaxy-0/system-13/world-1",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": 217590,
+        "y": 95820,
+        "z": 30
+      },
+      "attributes": {
+        "organism_kind": "animal",
+        "species_code": "BIO-9268",
+        "age_days": 2038,
+        "mass_g": 1326,
+        "life_stage": "adult",
+        "diet": "omnivore",
+        "limb_count": 4,
+        "source": "远程节点",
+        "tags": [
+          "常规",
+          "正常"
+        ],
+        "reviewer": "值班团队",
+        "taxonomy": {
+          "kingdom": "Animalia",
+          "group": "synthetic-9268",
+          "provisional": true
+        },
+        "identification_confidence": 92.32,
+        "sampling_method": "laboratory",
+        "verified": true,
+        "observation_history": {
+          "count": 1,
+          "last": {
+            "result": "ok",
+            "notes": "复核完成\nnext check"
+          }
+        },
+        "trait_20": [
+          28.09,
+          70.14
+        ],
+        "ecology_note_20": 28.09,
+        "quality_score": 76.83,
+        "description": "ref=6571 trace=3940035f1f2cf911; 采样结果已进入复核流程。建议按照计划继续观察。第一行记录\n第二行说明。"
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6572",
+      "sequence": 6572,
+      "type_id": 27,
+      "name": "航天器 #6572",
+      "timestamp_ms": 1792627199934,
+      "position": {
+        "frame_id": "galaxy-0/system-3",
+        "frame_kind": "stellar_system",
+        "unit": "km",
+        "x": 150047000,
+        "y": -1875000,
+        "z": 94900
+      },
+      "attributes": {
+        "vehicle_kind": "spacecraft",
+        "orbit": {
+          "primary": "reference_world",
+          "altitude_km": 709,
+          "speed_kms": 7.5,
+          "period_minutes": 98.81
+        },
+        "mission_days": 352,
+        "crew_count": 5,
+        "solar_power_kw": 99.91,
+        "source": "远程节点",
+        "tags": [
+          "夜间",
+          "正常"
+        ],
+        "reviewer": "Operator A",
+        "operator": "Ocean Research",
+        "inspection_count": 11,
+        "systems": [
+          {
+            "code": "C-7",
+            "value": 53.35
+          }
+        ],
+        "registration": "R-780df1c7110e269b",
+        "readiness_score": 82.1,
+        "mission": "rescue",
+        "operational": true,
+        "maintenance_records": {
+          "count": 16,
+          "last": {
+            "result": "ok",
+            "notes": "复核完成\nnext check"
+          }
+        },
+        "range_km": 8.25,
+        "subsystem_1b": [
+          {
+            "label": "primary",
+            "reading": 44.13
+          },
+          {
+            "label": "reference",
+            "reading": 0
+          }
+        ],
+        "mission_check_1b": true,
+        "quality_score": 93.34,
+        "description": "ref=6572 trace=f1a972f8a29ce1d2; quality controls passed. 第一行记录\n第二行说明。对象保留原始记录和来源信息。consistent with the previous observation. 备注：\"需要复核\"；需关注环境温度与测量误差；component inspection completed; component inspection completed; collector=mobile unit; calibration checked; updated measurements are available. "
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6573",
+      "sequence": 6573,
+      "type_id": 26,
+      "name": "异常信号 #6573",
+      "timestamp_ms": 1792627201337,
+      "position": {
+        "frame_id": "galaxy-0/system-0/world-6",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": 225000,
+        "y": 96520,
+        "z": 35
+      },
+      "attributes": {
+        "metric": "latency",
+        "unit": "ms",
+        "value": 163.58,
+        "anomalous": false,
+        "source": "华南基地",
+        "tags": [
+          "archive",
+          "lab"
+        ],
+        "instrument": "移动传感器",
+        "uncertainty": {
+          "absolute": 0.35,
+          "confidence_pct": 98.65
+        },
+        "station": {
+          "zone": "南部仓库",
+          "position": {
+            "lat": 31.67,
+            "lon": 121.64
+          }
+        },
+        "observation_no": "R-644db05b3a2ffc87",
+        "confidence": 97.04,
+        "intervals": {
+          "count": 1,
+          "last": {
+            "result": "ok",
+            "notes": "复核完成\nnext check"
+          }
+        },
+        "frequency_hz": 68.81,
+        "signal_band_1a": {
+          "score": 60.79,
+          "accepted": false
+        },
+        "calibration_note_1a": true,
+        "quality_score": 70.72,
+        "description": "ref=6573 trace=5f9aa8a0261436e1; 测试路径 C:\\data\\objects，备注：\"需要复核\"；本次数据来自定期检查，calibration checked; 测试路径 C:\\data\\objects，备注：\"需要复核\"；本次数据来自定期检查，notes\tverified; consistent with the previous observation. notes\tverified; consistent with the previous observation. 对象保留原始记录和来源信息。component inspection completed; component inspection completed; 局部异常需要结合上下文判断；记录包含中文与 English 内容 🌏。第一行记录\n第二行说明。记录包含中文与 English 内容 🌏。updated measurements are available. 建议按照计划继续观察。对象保留原始记录和来源信息。calibration checked; 需关注环境温度与测量误差；"
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6574",
+      "sequence": 6574,
+      "type_id": 25,
+      "name": "小行星 #6574",
+      "timestamp_ms": 1792627200544,
+      "position": {
+        "frame_id": "galaxy-0",
+        "frame_kind": "galactic",
+        "unit": "ly",
+        "x": 7950,
+        "y": -6260,
+        "z": -300
+      },
+      "attributes": {
+        "body_kind": "asteroid",
+        "shape": {
+          "axes_km": [
+            606.34,
+            454.75,
+            303.17
+          ]
+        },
+        "composition": "rocky",
+        "rotation_hours": 36.25,
+        "source": "华北中心",
+        "tags": [
+          "正常",
+          "lab"
+        ],
+        "coordinates": {
+          "ra_deg": 52.38,
+          "dec_deg": -34.62,
+          "frame": "ICRS"
+        },
+        "detections": [
+          {
+            "code": "C-24",
+            "value": 42.8
+          },
+          {
+            "code": "C-25",
+            "value": 11.88
+          }
+        ],
+        "observatory": {
+          "zone": "南部仓库",
+          "position": {
+            "lat": 32.63,
+            "lon": 122.82
+          }
+        },
+        "classification_confidence": 97.04,
+        "observation_band": "infrared",
+        "confirmed": true,
+        "signal_to_noise": 45.13,
+        "spectral_feature_19": true,
+        "orbit_review_19": [
+          5.34,
+          48.09
+        ],
+        "quality_score": 80.48,
+        "description": "ref=6574 trace=15e741ed1a8a0a33; 备注：\"需要复核\"；测试路径 C:\\data\\objects，calibration checked; 第一行记录\n第二行说明。updated measurements are available. component inspection completed; 测试路径 C:\\data\\objects，需关注环境温度与测量误差；quality controls passed. 采样结果已进入复核流程。calibration checked; quality controls passed. calibration checked; 建议按照计划继续观察。"
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6575",
+      "sequence": 6575,
+      "type_id": 31,
+      "name": "工作耗材 #6575",
+      "timestamp_ms": 1792627200357,
+      "position": {
+        "frame_id": "galaxy-0/system-14/world-1",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": 218550,
+        "y": 98940,
+        "z": 80
+      },
+      "attributes": {
+        "currency": "CNY",
+        "quantity": 18,
+        "unit_price": 443.8,
+        "total": 7988.4,
+        "in_stock": false,
+        "source": "远程节点",
+        "tags": [
+          "重点"
+        ],
+        "reviewer": "自动巡检",
+        "brand": "标准供应",
+        "package_count": 18,
+        "suppliers": [
+          {
+            "code": "C-13",
+            "value": 51.17
+          },
+          {
+            "code": "C-14",
+            "value": 55.27
+          }
+        ],
+        "inspections": {
+          "count": 9,
+          "last": {
+            "result": "ok",
+            "notes": "复核完成\nnext check"
+          }
+        },
+        "option_1f": {
+          "score": 24.88,
+          "accepted": true
+        },
+        "quality_score": 87.96,
+        "description": "ref=6575 trace=8bbb0c4a7487f962; notes\tverified; consistent with the previous observation. 采样结果已进入复核流程。需关注环境温度与测量误差；备注：\"需要复核\"；备注：\"需要复核\"；建议按照计划继续观察。component inspection completed; 采样结果已进入复核流程。第一行记录\n第二行说明。对象保留原始记录和来源信息。component inspection completed; "
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6576",
+      "sequence": 6576,
+      "type_id": 13,
+      "name": "监测终端 #6576",
+      "timestamp_ms": 1792627201401,
+      "position": {
+        "frame_id": "galaxy-3/system-2/world-1",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": -120000,
+        "y": 80000,
+        "z": 120
+      },
+      "attributes": {
+        "model": "D-8",
+        "state": "online",
+        "temperature_c": 22.6,
+        "battery_pct": 65,
+        "source": "West Hub",
+        "tags": [
+          "常规",
+          "remote"
+        ],
+        "reviewer": "值班团队",
+        "serial": "R-41abd942ee8756cf",
+        "connection": "cellular",
+        "sensor_group_d": [
+          {
+            "label": "primary",
+            "reading": 6.49
+          },
+          {
+            "label": "reference",
+            "reading": 0
+          }
+        ],
+        "diagnostic_d": "低温",
+        "quality_score": 90.58,
+        "description": "ref=6576 trace=d1a2d14fa3c1c12d; 本次观察具有独立编号；component inspection completed; 测试路径 C:\\data\\objects，component inspection completed; updated measurements are available. consistent with the previous observation. quality controls passed. 测试路径 C:\\data\\objects，正常范围内存在小幅波动，标签包括现场、实验与归档；multiple samples were compared; 本次数据来自定期检查，operator requested a follow-up review; consistent with the previous observation. "
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6577",
+      "sequence": 6577,
+      "type_id": 8,
+      "name": "运输设备 #6577",
+      "timestamp_ms": 1792627201045,
+      "position": {
+        "frame_id": "galaxy-0/system-3/world-0",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": -75040,
+        "y": -156580,
+        "z": 915
+      },
+      "attributes": {
+        "acquisition_value": 45909.09,
+        "age_months": 97,
+        "book_value": 38487.12,
+        "active": true,
+        "source": "远程节点",
+        "tags": [
+          "remote",
+          "重点"
+        ],
+        "reviewer": "Operator A",
+        "manufacturer": "南方制造",
+        "custodians": [
+          {
+            "code": "C-5",
+            "value": 43.57
+          },
+          {
+            "code": "C-6",
+            "value": 79.85
+          },
+          {
+            "code": "C-7",
+            "value": 16.32
+          }
+        ],
+        "ownership": "temporary",
+        "capacity": 58.3,
+        "inspection_8": 55.19,
+        "quality_score": 96.92,
+        "description": "ref=6577 trace=2f99757e5e1c5818; component inspection completed; 对象保留原始记录和来源信息。calibration checked; 局部异常需要结合上下文判断；component inspection completed; 测试路径 C:\\data\\objects，本次观察具有独立编号；现场记录显示运行状态稳定；component inspection completed; component inspection completed; 现场记录显示运行状态稳定；notes\tverified; 局部异常需要结合上下文判断；collector=mobile unit; 备注：\"需要复核\"；updated measurements are available. 对象保留原始记录和来源信息。collector=mobile unit; "
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6578",
+      "sequence": 6578,
+      "name": "监测终端 #6578",
+      "timestamp_ms": 1792627201463,
+      "position": {
+        "frame_id": "galaxy-1/system-3/world-0",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": 217240,
+        "y": 101470,
+        "z": 90
+      },
+      "attributes": {
+        "model": "D-12",
+        "state": "online",
+        "temperature_c": 22.01,
+        "battery_pct": 93,
+        "source": "华南基地",
+        "tags": [
+          "待复核",
+          "field"
+        ],
+        "reviewer": null,
+        "calibration": {
+          "offset_c": -0.14,
+          "method": "reference",
+          "valid": true
+        },
+        "readings": [
+          93.61,
+          51.46,
+          35.17,
+          78.67
+        ],
+        "location": {
+          "zone": "南部仓库",
+          "position": {
+            "lat": 31.03,
+            "lon": 121.76
+          }
+        },
+        "connection": "wifi",
+        "certified": true,
+        "sensor_group_2": {
+          "score": 70.55,
+          "accepted": true
+        },
+        "diagnostic_2": true,
+        "quality_score": 94.56,
+        "description": "ref=6578 trace=5ab57fcafbb7f86c; 记录包含中文与 English 内容 🌏。该条目关联同批次的其他发现。需关注环境温度与测量误差；第一行记录\n第二行说明。本次观察具有独立编号；需关注环境温度与测量误差；对象保留原始记录和来源信息。第一行记录\n第二行说明。局部异常需要结合上下文判断；operator requested a follow-up review; 标签包括现场、实验与归档；"
+      }
+    },
+    {
+      "id": "probe-e66cf7ae83-6579",
+      "sequence": 6579,
+      "type_id": 8,
+      "name": "运输设备 #6579",
+      "timestamp_ms": 1792627200227,
+      "position": {
+        "frame_id": "galaxy-0/system-3/world-0",
+        "frame_kind": "local_surface",
+        "unit": "m",
+        "x": -82300,
+        "y": -164000,
+        "z": 850
+      },
+      "attributes": {
+        "acquisition_value": 38036.8,
+        "age_months": 27,
+        "book_value": 36325.14,
+        "active": true,
+        "source": "West Hub",
+        "tags": [
+          "高优先级",
+          "低温"
+        ],
+        "reviewer": "张研究员",
+        "manufacturer": "华北精工",
+        "custodians": [
+          {
+            "code": "C-0",
+            "value": 22.4
+          },
+          {
+            "code": "C-1",
+            "value": 70.4
+          },
+          {
+            "code": "C-2",
+            "value": 58.08
+          }
+        ],
+        "storage_site": {
+          "zone": "华东观测站",
+          "position": {
+            "lat": 31.76,
+            "lon": 120.04
+          }
+        },
+        "asset_no": "R-552ee7a88e122d27",
+        "ownership": "owned",
+        "capacity": 89.43,
+        "inspection_8": 27.23,
+        "quality_score": 91.84,
+        "description": "ref=6579 trace=1a26a343bac4c9ad; 该条目关联同批次的其他发现。记录包含中文与 English 内容 🌏。记录包含中文与 English 内容 🌏。notes\tverified; 正常范围内存在小幅波动，operator requested a follow-up review; 本次数据来自定期检查，consistent with the previous observation. 备注：\"需要复核\"；consistent with the previous observation. 测试路径 C:\\data\\objects，局部异常需要结合上下文判断；建议按照计划继续观察。collector=mobile unit; 本次数据来自定期检查，第一行记录\n第二行说明。本次观察具有独立编号；第一行记录\n第二行说明。quality controls passed. consistent with the previous observation. consistent with the previous observation. 第一行记录\n第二行说明。consistent with the previous observation. 标签包括现场、实验与归档；记录包含中文与 English 内容 🌏。需关注环境温度与测量误差；备注：\"需要复核\"；标签包括现场、实验与归档；notes\tverified; 备注：\"需要复核\"；采样结果已进入复核流程。updated measurements are available. calibration checked; quality controls passed. 备注：\"需要复核\"；notes\tverified; 采样结果已进入复核流程。collector=mobile unit; 记录包含中文与 English 内容 🌏。quality controls passed. notes\tverified; 正常范围内存在小幅波动，记录包含中文与 English 内容 🌏。quality controls passed. 现场记录显示运行状态稳定；updated measurements are available. multiple samples were compared; updated measurements are available. 需关注环境温度与测量误差；采样结果已进入复核流程。本次观察具有独立编号；notes\tverified; 建议按照计划继续观察。consistent with the previous observation. calibration checked; 备注：\"需要复核\"；quality controls passed. quality controls passed. collector=mobile unit; multiple samples were compared; collector=mobile unit; 第一行记录\n第二行说明。component inspection completed; updated measurements are available. 测试路径 C:\\data\\objects，notes\tverified; 现场记录显示运行状态稳定；采样结果已进入复核流程。multiple samples were compared; 局部异常需要结合上下文判断；正常范围内存在小幅波动，该条目关联同批次的其他发现。multiple samples were compared; 采样结果已进入复核流程。备注：\"需要复核\"；建议按照计划继续观察。需关注环境温度与测量误差；multiple samples were compared; component inspection completed; quality controls passed. 本次观察具有独立编号；multiple samples were compared; 现场记录显示运行状态稳定；建议按照计划继续观察。正常范围内存在小幅波动，现场记录显示运行状态稳定；记录包含中文与 English 内容 🌏。component inspection completed; "
+      }
+    }
+  ]
+}

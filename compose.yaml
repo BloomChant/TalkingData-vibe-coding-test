@@ -1,0 +1,38 @@
+name: observatory
+services:
+  app:
+    build: .
+    image: observatory-app:local
+    platform: linux/arm64
+    cpus: 4.0
+    mem_limit: 4g
+    memswap_limit: 4g
+    pids_limit: 256
+    restart: unless-stopped
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    tmpfs:
+      - /tmp:size=67108864,mode=1777
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - observatory-data:/data
+    environment:
+      DATA_DIR: /data
+      DISK_WARN_BYTES: "17179869184"
+      DISK_STOP_BYTES: "19327352832"
+      MAX_BODY_BYTES: "8388608"
+    logging:
+      driver: local
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+volumes:
+  observatory-data:

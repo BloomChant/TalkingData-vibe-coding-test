@@ -1,0 +1,15 @@
+services:
+  generator:
+    image: talkingdata/flightgen:exam-v4-f1
+    pull_policy: never
+    platform: linux/arm64
+    cpus: 1.0
+    mem_limit: 256m
+    memswap_limit: 256m
+    cpuset: "0"
+    ports:
+      - "127.0.0.1:9001:9001"
+    volumes:
+      - generator-runs:/runs
+volumes:
+  generator-runs:

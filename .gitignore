@@ -17,3 +17,7 @@ generator-runs/
 
 # generator image (large; lives in the task package)
 *.tar
+
+# Observatory Python runtime
+.pytest_cache/
+*.sqlite3*
