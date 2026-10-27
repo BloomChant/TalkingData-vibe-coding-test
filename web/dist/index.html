@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>宇宙万物观测站</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='5' fill='%233987e5'/%3E%3Ccircle cx='16' cy='16' r='12' fill='none' stroke='%23898781' stroke-width='1.5'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/views/overview.css" />
+    <link rel="stylesheet" href="/views/trust.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark"></span>宇宙万物观测站</div>
+      <nav class="tabs" id="tabs">
+        <a href="#/overview" data-view="overview">总览</a>
+        <a href="#/explore" data-view="explore">探索</a>
+        <a href="#/trust" data-view="trust">可信与系统</a>
+      </nav>
+      <div class="topbar-right">
+        <span class="live" id="live"><i></i><b>连接中</b></span>
+        <label class="run-picker">轮次 <select id="run"></select></label>
+      </div>
+    </header>
+    <main id="view"></main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
