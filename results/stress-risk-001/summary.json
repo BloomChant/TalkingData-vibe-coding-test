@@ -1,0 +1,10 @@
+{
+  "test_id": "stress-risk-001",
+  "elapsed_seconds": 15.000476799,
+  "generator_acknowledged_main_objects": 15000,
+  "acknowledged_main_objects_per_second": 999.9682144103558,
+  "generator_main_request_average_latency_ms": 28.43622496,
+  "generator_main_request_max_latency_ms": 49.366583,
+  "reconciliation_ok": true,
+  "note": "Generator main-object counters exclude extra fault/duplicate injections. This is one measured run, not a guaranteed capacity."
+}

@@ -1,0 +1,10 @@
+{
+  "test_id": "mixed-risk-001",
+  "elapsed_seconds": 15.00510284,
+  "generator_acknowledged_main_objects": 15000,
+  "acknowledged_main_objects_per_second": 999.6599263560929,
+  "generator_main_request_average_latency_ms": 28.74299468,
+  "generator_main_request_max_latency_ms": 147.618042,
+  "reconciliation_ok": true,
+  "note": "Generator main-object counters exclude extra fault/duplicate injections. This is one measured run, not a guaranteed capacity."
+}

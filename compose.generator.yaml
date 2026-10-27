@@ -1,4 +1,8 @@
 services:
+  app:
+    environment:
+      GENERATOR_URL: http://generator:9001
+      GENERATOR_TARGET_URL: http://app:8000/ingest
   generator:
     image: talkingdata/flightgen:exam-v4-f1
     pull_policy: never

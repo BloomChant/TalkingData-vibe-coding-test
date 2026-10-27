@@ -1,0 +1,92 @@
+{
+  "mixed": {
+    "preview_samples": [
+      {
+        "revision": 1,
+        "objects": 1000,
+        "min_sequence": 0,
+        "max_sequence": 999,
+        "first_id": "id-review-0",
+        "last_id": "id-review-999"
+      },
+      {
+        "revision": 2,
+        "objects": 1000,
+        "min_sequence": 10000,
+        "max_sequence": 10999,
+        "first_id": "id-review-10000",
+        "last_id": "id-review-10999"
+      },
+      {
+        "revision": 10,
+        "objects": 1000,
+        "min_sequence": 90000,
+        "max_sequence": 90999,
+        "first_id": "id-review-90000",
+        "last_id": "id-review-90999"
+      }
+    ],
+    "unique_ids": 3000,
+    "duplicate_ids": 0,
+    "different_content_same_id": [],
+    "different_content_same_id_count": 0,
+    "inspect": {
+      "sampled_objects": 20000,
+      "first_sequence": 0,
+      "last_sequence": 19999,
+      "final_tree_revision": 20,
+      "final_tree_nodes": 38,
+      "tree_operations": {
+        "create": 38,
+        "move": 2,
+        "rename": 3
+      }
+    },
+    "inspect_does_not_report_duplicate_ids": true
+  },
+  "stress": {
+    "preview_samples": [
+      {
+        "revision": 1,
+        "objects": 1000,
+        "min_sequence": 0,
+        "max_sequence": 999,
+        "first_id": "id-review-0",
+        "last_id": "id-review-999"
+      },
+      {
+        "revision": 2,
+        "objects": 1000,
+        "min_sequence": 10000,
+        "max_sequence": 10999,
+        "first_id": "id-review-10000",
+        "last_id": "id-review-10999"
+      },
+      {
+        "revision": 10,
+        "objects": 1000,
+        "min_sequence": 90000,
+        "max_sequence": 90999,
+        "first_id": "id-review-90000",
+        "last_id": "id-review-90999"
+      }
+    ],
+    "unique_ids": 3000,
+    "duplicate_ids": 0,
+    "different_content_same_id": [],
+    "different_content_same_id_count": 0,
+    "inspect": {
+      "sampled_objects": 20000,
+      "first_sequence": 0,
+      "last_sequence": 19999,
+      "final_tree_revision": 20,
+      "final_tree_nodes": 80,
+      "tree_operations": {
+        "create": 80,
+        "move": 2,
+        "rename": 3
+      }
+    },
+    "inspect_does_not_report_duplicate_ids": true
+  }
+}

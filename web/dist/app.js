@@ -1,6 +1,7 @@
+import { mountExperiments } from './experiments.js';
 // Shell: run picker, hash router, shared ctx for view modules (overview / explore / trust).
 const VIEWS = ['overview', 'explore', 'trust'];
-const state = { run: localStorage.getItem('observatory.run') || null, mod: null, view: null };
+const state = { run: localStorage.getItem('observatory.run') || null, mod: null, view: null, pendingRun: null, routeSeq: 0 };
 
 export const fmt = {
   n: (x) => (x == null || Number.isNaN(x) ? '—' : Number(x).toLocaleString('zh-CN')),
@@ -66,6 +67,8 @@ async function loadRuns() {
   try {
     const data = await get('/api/runs');
     const runs = (data?.runs ?? []).filter((r) => r.id !== '_unassigned');
+    if (state.pendingRun && !runs.some((r) => r.id === state.pendingRun)) runs.unshift({id: state.pendingRun, objects: 0});
+    if (runs.some((r) => r.id === state.pendingRun && r.objects > 0)) state.pendingRun = null;
     if (!runs.length) { select.innerHTML = '<option>（还没有数据）</option>'; return; }
     if (!runs.some((r) => r.id === state.run)) state.run = runs[0].id;
     select.innerHTML = runs.map((r) => `<option value="${escapeHtml(r.id)}">${escapeHtml(r.id)} · ${fmt.n(r.objects)} 个对象</option>`).join('');
@@ -76,6 +79,7 @@ async function loadRuns() {
 }
 
 async function route() {
+  const seq = ++state.routeSeq;
   const view = VIEWS.find((v) => location.hash === `#/${v}`) ?? 'overview';
   document.querySelectorAll('#tabs a').forEach((a) => a.classList.toggle('active', a.dataset.view === view));
   if (state.mod?.dispose) state.mod.dispose();
@@ -84,11 +88,13 @@ async function route() {
   root.innerHTML = '<div class="loading">加载中…</div>';
   state.view = view;
   try {
-    state.mod = await import(`./views/${view}.js`);
-    if (state.view !== view) return;
+    const mod = await import(`./views/${view}.js`);
+    if (seq !== state.routeSeq) return;
+    state.mod = mod;
     root.innerHTML = '';
     await state.mod.render(root, ctx());
   } catch (err) {
+    if (seq !== state.routeSeq) return;
     root.innerHTML = `<div class="card error">页面加载失败：${escapeHtml(err.message)}</div>`;
   }
 }
@@ -119,3 +125,18 @@ route();
 pollLive();
 setInterval(pollLive, 3000);
 setInterval(loadRuns, 15000);
+
+function selectExperiment(exp, target) {
+  if (!exp?.test_id) return;
+  state.run = exp.test_id; state.pendingRun = exp.test_id;
+  localStorage.setItem('observatory.run', state.run);
+  loadRuns();
+  if (target && location.hash !== `#/${target}`) location.hash = `#/${target}`;
+  else route();
+  pollLive();
+}
+mountExperiments(document.getElementById('experiment'), {
+  fmt,
+  onStart: (exp, navigate) => selectExperiment(exp, navigate ? 'overview' : null),
+  onTrust: (exp) => selectExperiment(exp, 'trust'),
+});

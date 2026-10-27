@@ -1,0 +1,19 @@
+{
+  "stored_message_object_entries": 15000,
+  "distinct_object_ids": 15000,
+  "repeated_ids_across_stored_batches": 0,
+  "same_id_different_content": 0,
+  "quarantine_reasons": [
+    {
+      "reason": "Missing or invalid type_id",
+      "records": 1,
+      "attempts": 1
+    },
+    {
+      "reason": "attributes must be an object",
+      "records": 1,
+      "attempts": 1
+    }
+  ],
+  "note": "Committed messages scanned by canonical content hash. Rejected/conflicting requests are separately listed by reason; finite sample only."
+}

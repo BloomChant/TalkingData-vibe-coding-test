@@ -1,7 +1,8 @@
+import asyncio
 import json
 import os
 import sqlite3
-from contextlib import asynccontextmanager
+from contextlib import asynccontextmanager, suppress
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
@@ -12,6 +13,7 @@ from starlette.concurrency import run_in_threadpool
 from . import storage as store
 from .protocol import validate
 from .queries import router
+from .experiments import router as experiment_router, monitor
 
 MAX_BODY=int(os.environ.get('MAX_BODY_BYTES',8*1024**2))
 STATIC=Path(os.environ.get('STATIC_DIR',str(Path(__file__).resolve().parents[2]/'web'/'dist')))
@@ -20,11 +22,18 @@ STATIC=Path(os.environ.get('STATIC_DIR',str(Path(__file__).resolve().parents[2]/
 @asynccontextmanager
 async def lifespan(app):
     store.init()
-    yield
+    task=asyncio.create_task(monitor())
+    try:
+        yield
+    finally:
+        task.cancel()
+        with suppress(asyncio.CancelledError):
+            await task
 
 
 app=FastAPI(title='Universe Observatory',version='1.0.0',lifespan=lifespan)
 app.include_router(router,prefix='/api')
+app.include_router(experiment_router,prefix='/api')
 
 
 @app.get('/health')

@@ -1,0 +1,18 @@
+{
+  "workload": "objects",
+  "target_url": "http://host.docker.internal:8000/ingest",
+  "test_id": "ui-20261027T145645-ac08a598",
+  "seed": 42,
+  "batch_size": 20,
+  "workers": 4,
+  "objects_per_second": 200,
+  "rate_profile": "steady",
+  "duration_seconds": 60,
+  "ramp_seconds": 5,
+  "max_batches": 20000,
+  "retries": 2,
+  "objects": {
+    "scenario": "evolving",
+    "tree_every_batches": 10
+  }
+}

@@ -63,3 +63,13 @@ R0–R5 已全部实现，保持 v1.0 字段兼容。新镜像在 correctness-00
 ## 最终集成修复
 
 用户明确授权 Codex 修复 `web/dist/views/explore.js`：分页请求增加加载锁与筛选代次检查，丢弃旧页/已离开页面的响应；字段、空间、详情和分页请求失败增加可重试状态。不改变 API 或分类树刷新语义。新增 `scripts/test-frontend.cjs` 验证异步竞态与失败路径。
+
+
+## 前端启动采集实验（新增接口）
+
+用户要求从页面配置并启动发生器，新增独立控制入口，不改变现有查询契约：
+- GET `/api/experiment`：`reachable, generator(原始status或null), experiment(最近本应用实验记录或null), error`。
+- POST `/api/experiment/start`：JSON `{rate,duration,batch_size,workers,seed,scenario,profile}`；默认200/s、60s、20对象/批、4并发、seed42、evolving、steady。范围分别为1–20000、5–600、1–500、1–8，禁止rate=0。返回test_id、state、config；启动结果不确定时202并只查状态，不重复POST。
+- POST `/api/experiment/stop`：`{test_id}`，仅停止本应用当前拥有且发生器身份一致的轮次。外部占用返回409。
+- 后台每秒观察，保存receipt并自动对账；experiment含test_id/state/config/created_at/finished_at/receipt/reconciliation/error。状态starting/running/stopping/completed/failed。发生器失败与ACK持久性检查分开，不以对账ok掩盖上游提前失败。
+- GENERATOR_URL与GENERATOR_TARGET_URL固定由服务端环境设置，页面不能指定任意目标地址。实验记录与回执保存在SQLite，刷新页面或应用重启后继续观察。

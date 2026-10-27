@@ -1,0 +1,18 @@
+{
+  "workload": "objects",
+  "target_url": "http://host.docker.internal:8000/ingest",
+  "test_id": "stress-risk-001",
+  "seed": 42,
+  "batch_size": 100,
+  "workers": 4,
+  "objects_per_second": 1000,
+  "rate_profile": "steady",
+  "ramp_seconds": 0,
+  "duration_seconds": 15,
+  "max_batches": 20000,
+  "retries": 2,
+  "objects": {
+    "scenario": "stress",
+    "tree_every_batches": 10
+  }
+}

@@ -20,6 +20,8 @@ services:
       - observatory-data:/data
     environment:
       DATA_DIR: /data
+      GENERATOR_URL: http://host.docker.internal:9001
+      GENERATOR_TARGET_URL: http://host.docker.internal:8000/ingest
       DISK_WARN_BYTES: "17179869184"
       DISK_STOP_BYTES: "19327352832"
       MAX_BODY_BYTES: "8388608"
