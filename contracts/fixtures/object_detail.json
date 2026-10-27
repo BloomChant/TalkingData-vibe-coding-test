@@ -1,0 +1,57 @@
+{
+  "object": {
+    "attributes": {
+      "battery_pct": 84,
+      "certified": true,
+      "connection": "wifi",
+      "description": "ref=22179 trace=bbde3adc02c54517; 局部异常需要结合上下文判断；局部异常需要结合上下文判断；备注：\"需要复核\"；记录包含中文与 English 内容 🌏。calibration checked; 正常范围内存在小幅波动，",
+      "diagnostic_2": true,
+      "location": {
+        "position": {
+          "lat": 31.37,
+          "lon": 121.23
+        },
+        "zone": "移动采集站"
+      },
+      "model": "D-12",
+      "provenance": {
+        "method": "automated",
+        "revision": 111,
+        "verified": true
+      },
+      "quality_score": 88.56,
+      "readings": [
+        78.0,
+        66.84,
+        55.73
+      ],
+      "reviewer": null,
+      "sensor_group_2": {
+        "accepted": true,
+        "score": 20.85
+      },
+      "source": "West Hub",
+      "state": "online",
+      "tags": [
+        "remote",
+        "正常"
+      ],
+      "temperature_c": 21.49
+    },
+    "id": "correctness-001-22179",
+    "name": "监测终端 #22179",
+    "position": {
+      "frame_id": "galaxy-0/system-1/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "x": 43850,
+      "y": -62380,
+      "z": 385
+    },
+    "sequence": 22179,
+    "timestamp_ms": 1792627202380,
+    "type_id": 2
+  },
+  "tree_revision": 111,
+  "type_name": "设备"
+}

@@ -1,0 +1,491 @@
+{
+  "run": "probe-e66cf7ae83",
+  "filters_applied": true,
+  "sample": {
+    "size": 2000,
+    "matched": 2940,
+    "sampled": true,
+    "order": "most_recent"
+  },
+  "fields": [
+    {
+      "path": "attributes.description",
+      "present": 2000,
+      "coverage": 1.0,
+      "types": {
+        "string": 2000
+      },
+      "mixed": false,
+      "examples": [
+        "ref=2939 trace=edadd568ab4ed891; 备注：\"需要复",
+        "ref=2938 trace=f875d6bcd1397e9b; 现场记录显示运",
+        "ref=2937 trace=1b8a4a715cab8b83; 需关注环境温度"
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.quality_score",
+      "present": 2000,
+      "coverage": 1.0,
+      "types": {
+        "number": 2000
+      },
+      "mixed": false,
+      "examples": [
+        83.59,
+        82.41,
+        91.81
+      ],
+      "numeric": {
+        "min": 70.07,
+        "max": 100.0
+      }
+    },
+    {
+      "path": "attributes.source",
+      "present": 2000,
+      "coverage": 1.0,
+      "types": {
+        "string": 2000
+      },
+      "mixed": false,
+      "examples": [
+        "远程节点",
+        "华东观测站",
+        "West Hub"
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.tags",
+      "present": 2000,
+      "coverage": 1.0,
+      "types": {
+        "array": 2000
+      },
+      "mixed": false,
+      "examples": [],
+      "numeric": null
+    },
+    {
+      "path": "attributes.tags[]",
+      "present": 2000,
+      "coverage": 1.0,
+      "types": {
+        "string": 2000
+      },
+      "mixed": false,
+      "examples": [
+        "常规",
+        "夜间",
+        "remote"
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.provenance",
+      "present": 1819,
+      "coverage": 0.9095,
+      "types": {
+        "object": 1819
+      },
+      "mixed": false,
+      "examples": [],
+      "numeric": null
+    },
+    {
+      "path": "attributes.provenance.method",
+      "present": 1819,
+      "coverage": 0.9095,
+      "types": {
+        "string": 1819
+      },
+      "mixed": false,
+      "examples": [
+        "automated"
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.provenance.revision",
+      "present": 1819,
+      "coverage": 0.9095,
+      "types": {
+        "number": 1819
+      },
+      "mixed": false,
+      "examples": [
+        30,
+        29,
+        28
+      ],
+      "numeric": {
+        "min": 10,
+        "max": 30
+      }
+    },
+    {
+      "path": "attributes.provenance.verified",
+      "present": 1819,
+      "coverage": 0.9095,
+      "types": {
+        "boolean": 1819
+      },
+      "mixed": false,
+      "examples": [
+        true,
+        false
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.reviewer",
+      "present": 1720,
+      "coverage": 0.86,
+      "types": {
+        "string": 1391,
+        "null": 329
+      },
+      "mixed": false,
+      "examples": [
+        "张研究员",
+        "自动巡检",
+        "值班团队"
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.state",
+      "present": 775,
+      "coverage": 0.3875,
+      "types": {
+        "string": 775
+      },
+      "mixed": false,
+      "examples": [
+        "online",
+        "running",
+        "pending"
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.battery_pct",
+      "present": 704,
+      "coverage": 0.352,
+      "types": {
+        "number": 704
+      },
+      "mixed": false,
+      "examples": [
+        55,
+        43,
+        22
+      ],
+      "numeric": {
+        "min": 20,
+        "max": 100
+      }
+    },
+    {
+      "path": "attributes.model",
+      "present": 704,
+      "coverage": 0.352,
+      "types": {
+        "string": 704
+      },
+      "mixed": false,
+      "examples": [
+        "D-12",
+        "D-10",
+        "D-13"
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.temperature_c",
+      "present": 704,
+      "coverage": 0.352,
+      "types": {
+        "number": 704
+      },
+      "mixed": false,
+      "examples": [
+        18.37,
+        25.51,
+        27.05
+      ],
+      "numeric": {
+        "min": 16.15,
+        "max": 98.89
+      }
+    },
+    {
+      "path": "attributes.readings",
+      "present": 656,
+      "coverage": 0.328,
+      "types": {
+        "array": 656
+      },
+      "mixed": false,
+      "examples": [],
+      "numeric": null
+    },
+    {
+      "path": "attributes.readings[]",
+      "present": 656,
+      "coverage": 0.328,
+      "types": {
+        "number": 656
+      },
+      "mixed": false,
+      "examples": [
+        86.01,
+        18.48,
+        16.84
+      ],
+      "numeric": {
+        "min": 0.15,
+        "max": 99.78
+      }
+    },
+    {
+      "path": "attributes.connection",
+      "present": 583,
+      "coverage": 0.2915,
+      "types": {
+        "string": 583
+      },
+      "mixed": false,
+      "examples": [
+        "ethernet",
+        "wifi",
+        "serial"
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.channel_count",
+      "present": 413,
+      "coverage": 0.2065,
+      "types": {
+        "number": 413
+      },
+      "mixed": false,
+      "examples": [
+        14,
+        15,
+        3
+      ],
+      "numeric": {
+        "min": 1,
+        "max": 32
+      }
+    },
+    {
+      "path": "attributes.firmware",
+      "present": 353,
+      "coverage": 0.1765,
+      "types": {
+        "string": 353
+      },
+      "mixed": false,
+      "examples": [
+        "v3.0",
+        "v1.4",
+        "v3.2-beta"
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.calibration",
+      "present": 342,
+      "coverage": 0.171,
+      "types": {
+        "object": 342
+      },
+      "mixed": false,
+      "examples": [],
+      "numeric": null
+    },
+    {
+      "path": "attributes.calibration.method",
+      "present": 342,
+      "coverage": 0.171,
+      "types": {
+        "string": 342
+      },
+      "mixed": false,
+      "examples": [
+        "reference"
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.calibration.offset_c",
+      "present": 342,
+      "coverage": 0.171,
+      "types": {
+        "number": 342
+      },
+      "mixed": false,
+      "examples": [
+        -0.5,
+        0.0,
+        0.12
+      ],
+      "numeric": {
+        "min": -0.5,
+        "max": 0.5
+      }
+    },
+    {
+      "path": "attributes.calibration.valid",
+      "present": 342,
+      "coverage": 0.171,
+      "types": {
+        "boolean": 342
+      },
+      "mixed": false,
+      "examples": [
+        true,
+        false
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.certified",
+      "present": 337,
+      "coverage": 0.1685,
+      "types": {
+        "boolean": 337
+      },
+      "mixed": false,
+      "examples": [
+        true,
+        false
+      ],
+      "numeric": null
+    },
+    {
+      "path": "attributes.confidence",
+      "present": 142,
+      "coverage": 0.071,
+      "types": {
+        "number": 127,
+        "string": 8,
+        "null": 7
+      },
+      "mixed": true,
+      "examples": [
+        90.28,
+        98.99,
+        88.12
+      ],
+      "numeric": {
+        "min": 70.09,
+        "max": 99.88
+      }
+    },
+    {
+      "path": "attributes.accuracy",
+      "present": 140,
+      "coverage": 0.07,
+      "types": {
+        "number": 130,
+        "null": 7,
+        "string": 3
+      },
+      "mixed": true,
+      "examples": [
+        73.02,
+        77.91,
+        94.19
+      ],
+      "numeric": {
+        "min": 71.42,
+        "max": 99.72
+      }
+    },
+    {
+      "path": "attributes.classification_confidence",
+      "present": 123,
+      "coverage": 0.0615,
+      "types": {
+        "null": 7,
+        "number": 112,
+        "string": 4
+      },
+      "mixed": true,
+      "examples": [
+        98.15,
+        79.61,
+        84.11
+      ],
+      "numeric": {
+        "min": 70.33,
+        "max": 99.47
+      }
+    },
+    {
+      "path": "attributes.identification_confidence",
+      "present": 113,
+      "coverage": 0.0565,
+      "types": {
+        "null": 6,
+        "number": 104,
+        "string": 3
+      },
+      "mixed": true,
+      "examples": [
+        78.34,
+        79.63,
+        83.81
+      ],
+      "numeric": {
+        "min": 70.02,
+        "max": 99.97
+      }
+    },
+    {
+      "path": "attributes.readiness_score",
+      "present": 101,
+      "coverage": 0.0505,
+      "types": {
+        "number": 94,
+        "null": 6,
+        "string": 1
+      },
+      "mixed": true,
+      "examples": [
+        96.33,
+        82.7,
+        84.03
+      ],
+      "numeric": {
+        "min": 70.08,
+        "max": 99.69
+      }
+    },
+    {
+      "path": "attributes.rating",
+      "present": 87,
+      "coverage": 0.0435,
+      "types": {
+        "number": 79,
+        "null": 4,
+        "string": 4
+      },
+      "mixed": true,
+      "examples": [
+        72.7,
+        81.6,
+        71.53
+      ],
+      "numeric": {
+        "min": 70.13,
+        "max": 99.36
+      }
+    }
+  ]
+}

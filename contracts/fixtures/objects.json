@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "row_id": 22200,
+      "id": "correctness-001-22179",
+      "name": "监测终端 #22179",
+      "type_id": 2,
+      "type_name": "设备",
+      "timestamp_ms": 1792627202380,
+      "frame_id": "galaxy-0/system-1/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m"
+    },
+    {
+      "row_id": 22199,
+      "id": "correctness-001-22178",
+      "name": "采集设备 #22178",
+      "type_id": 1,
+      "type_name": "万物",
+      "timestamp_ms": 1792627202599,
+      "frame_id": "galaxy-0/system-3/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m"
+    },
+    {
+      "row_id": 22198,
+      "id": "correctness-001-22177",
+      "name": "检验记录 #22177",
+      "type_id": 45,
+      "type_name": "维护记录 · 45",
+      "timestamp_ms": 1792627201956,
+      "frame_id": null,
+      "frame_kind": null,
+      "unit": null
+    },
+    {
+      "row_id": 22197,
+      "id": "correctness-001-22176",
+      "name": "巡检单元 #22176",
+      "type_id": 35,
+      "type_name": "工业级 · 35",
+      "timestamp_ms": 1792627202067,
+      "frame_id": "galaxy-0/system-15/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m"
+    },
+    {
+      "row_id": 22196,
+      "id": "correctness-001-22175",
+      "name": "巡检单元 #22175",
+      "type_id": 95,
+      "type_name": "边缘网关 · 95",
+      "timestamp_ms": 1792627202523,
+      "frame_id": "galaxy-0/system-2/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m"
+    }
+  ],
+  "next_cursor": 22196
+}

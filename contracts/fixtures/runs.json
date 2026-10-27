@@ -1,0 +1,48 @@
+{
+  "runs": [
+    {
+      "id": "recovery-001",
+      "created": 1793110772.51196,
+      "last_seen": 1793110781.80079,
+      "revision": 18,
+      "objects": 3560,
+      "batches": 178,
+      "duplicates": 5,
+      "rejected": 2,
+      "payload_bytes": 5117407
+    },
+    {
+      "id": "throughput-3000",
+      "created": 1793110567.0891929,
+      "last_seen": 1793110612.0770378,
+      "revision": 130,
+      "objects": 129700,
+      "batches": 1297,
+      "duplicates": 31,
+      "rejected": 21,
+      "payload_bytes": 190735681
+    },
+    {
+      "id": "_unassigned",
+      "created": 1793110325.0578914,
+      "last_seen": 1793110601.1869242,
+      "revision": 0,
+      "objects": 0,
+      "batches": 0,
+      "duplicates": 0,
+      "rejected": 4,
+      "payload_bytes": 0
+    },
+    {
+      "id": "correctness-001",
+      "created": 1793110240.4998503,
+      "last_seen": 1793110359.9212515,
+      "revision": 112,
+      "objects": 22200,
+      "batches": 1110,
+      "duplicates": 28,
+      "rejected": 16,
+      "payload_bytes": 32883490
+    }
+  ]
+}

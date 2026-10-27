@@ -1,0 +1,3035 @@
+{
+  "frames": [
+    {
+      "frame_id": "galaxy-0",
+      "frame_kind": "galactic",
+      "unit": "ly",
+      "count": 1339
+    },
+    {
+      "frame_id": "galaxy-0/system-2/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 719
+    },
+    {
+      "frame_id": "galaxy-0/system-0/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 712
+    },
+    {
+      "frame_id": "galaxy-0/system-3/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 707
+    },
+    {
+      "frame_id": "galaxy-0/system-1/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 695
+    },
+    {
+      "frame_id": "galaxy-0/system-0/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 685
+    },
+    {
+      "frame_id": "galaxy-0/system-3/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 660
+    },
+    {
+      "frame_id": "galaxy-0/system-2/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 658
+    },
+    {
+      "frame_id": "galaxy-0/system-1/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 647
+    },
+    {
+      "frame_id": "galaxy-1",
+      "frame_kind": "galactic",
+      "unit": "ly",
+      "count": 533
+    },
+    {
+      "frame_id": "galaxy-1/system-2/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 324
+    },
+    {
+      "frame_id": "galaxy-1/system-3/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 308
+    },
+    {
+      "frame_id": "galaxy-1/system-0/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 296
+    },
+    {
+      "frame_id": "galaxy-1/system-2/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 296
+    },
+    {
+      "frame_id": "galaxy-1/system-1/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 283
+    },
+    {
+      "frame_id": "galaxy-1/system-3/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 271
+    },
+    {
+      "frame_id": "galaxy-2",
+      "frame_kind": "galactic",
+      "unit": "ly",
+      "count": 258
+    },
+    {
+      "frame_id": "galaxy-1/system-0/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 255
+    },
+    {
+      "frame_id": "galaxy-1/system-1/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 238
+    },
+    {
+      "frame_id": "galaxy-2/system-0/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 133
+    },
+    {
+      "frame_id": "galaxy-2/system-1/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 129
+    },
+    {
+      "frame_id": "galaxy-2/system-3/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 126
+    },
+    {
+      "frame_id": "galaxy-2/system-2/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 122
+    },
+    {
+      "frame_id": "galaxy-2/system-0/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 120
+    },
+    {
+      "frame_id": "galaxy-2/system-3/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 120
+    },
+    {
+      "frame_id": "galaxy-2/system-1/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 118
+    },
+    {
+      "frame_id": "galaxy-2/system-2/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 114
+    },
+    {
+      "frame_id": "galaxy-0/system-2/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 96
+    },
+    {
+      "frame_id": "galaxy-0/system-1/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 95
+    },
+    {
+      "frame_id": "galaxy-0/system-2/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 94
+    },
+    {
+      "frame_id": "galaxy-0/system-3/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 94
+    },
+    {
+      "frame_id": "galaxy-0/system-2/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 92
+    },
+    {
+      "frame_id": "galaxy-0/system-0/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 89
+    },
+    {
+      "frame_id": "galaxy-0/system-12/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 89
+    },
+    {
+      "frame_id": "galaxy-0/system-7/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 89
+    },
+    {
+      "frame_id": "galaxy-0/system-9/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 88
+    },
+    {
+      "frame_id": "galaxy-0/system-13/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 87
+    },
+    {
+      "frame_id": "galaxy-0/system-0/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 84
+    },
+    {
+      "frame_id": "galaxy-0/system-1/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 82
+    },
+    {
+      "frame_id": "galaxy-0/system-8/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 81
+    },
+    {
+      "frame_id": "galaxy-3",
+      "frame_kind": "galactic",
+      "unit": "ly",
+      "count": 81
+    },
+    {
+      "frame_id": "galaxy-0/system-0/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 80
+    },
+    {
+      "frame_id": "galaxy-0/system-4/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 80
+    },
+    {
+      "frame_id": "galaxy-0/system-1/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 79
+    },
+    {
+      "frame_id": "galaxy-0/system-10/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 79
+    },
+    {
+      "frame_id": "galaxy-0/system-5/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 79
+    },
+    {
+      "frame_id": "galaxy-0/system-4/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 78
+    },
+    {
+      "frame_id": "galaxy-0/system-1/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 77
+    },
+    {
+      "frame_id": "galaxy-0/system-10/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 77
+    },
+    {
+      "frame_id": "galaxy-0/system-9/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 77
+    },
+    {
+      "frame_id": "galaxy-0/system-12/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 76
+    },
+    {
+      "frame_id": "galaxy-0/system-13/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 76
+    },
+    {
+      "frame_id": "galaxy-0/system-2/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 76
+    },
+    {
+      "frame_id": "galaxy-0/system-3/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 76
+    },
+    {
+      "frame_id": "galaxy-0/system-5/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 76
+    },
+    {
+      "frame_id": "galaxy-0/system-0/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 75
+    },
+    {
+      "frame_id": "galaxy-0/system-1/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 74
+    },
+    {
+      "frame_id": "galaxy-0/system-3/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 74
+    },
+    {
+      "frame_id": "galaxy-0/system-6/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 74
+    },
+    {
+      "frame_id": "galaxy-0/system-0/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 72
+    },
+    {
+      "frame_id": "galaxy-0/system-0/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 71
+    },
+    {
+      "frame_id": "galaxy-0/system-14/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 71
+    },
+    {
+      "frame_id": "galaxy-0/system-11/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 70
+    },
+    {
+      "frame_id": "galaxy-0/system-1/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 69
+    },
+    {
+      "frame_id": "galaxy-0/system-15/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 69
+    },
+    {
+      "frame_id": "galaxy-0/system-3/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 68
+    },
+    {
+      "frame_id": "galaxy-0/system-7/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 67
+    },
+    {
+      "frame_id": "galaxy-0/system-8/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 67
+    },
+    {
+      "frame_id": "galaxy-0/system-15/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 66
+    },
+    {
+      "frame_id": "galaxy-0/system-2/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 64
+    },
+    {
+      "frame_id": "galaxy-3/system-2/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 64
+    },
+    {
+      "frame_id": "galaxy-3/system-3/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 64
+    },
+    {
+      "frame_id": "galaxy-0/system-14/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 63
+    },
+    {
+      "frame_id": "galaxy-0/system-11/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 62
+    },
+    {
+      "frame_id": "galaxy-0/system-6/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 62
+    },
+    {
+      "frame_id": "galaxy-0/system-3/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 61
+    },
+    {
+      "frame_id": "galaxy-0/system-2/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 60
+    },
+    {
+      "frame_id": "galaxy-3/system-0/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 59
+    },
+    {
+      "frame_id": "galaxy-3/system-1/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 59
+    },
+    {
+      "frame_id": "galaxy-0/system-3/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 58
+    },
+    {
+      "frame_id": "galaxy-0/system-0",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 57
+    },
+    {
+      "frame_id": "galaxy-3/system-0/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 55
+    },
+    {
+      "frame_id": "galaxy-0/system-2",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 53
+    },
+    {
+      "frame_id": "galaxy-0/system-1",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 52
+    },
+    {
+      "frame_id": "galaxy-1/system-13/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 52
+    },
+    {
+      "frame_id": "galaxy-3/system-3/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 50
+    },
+    {
+      "frame_id": "galaxy-1/system-0/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 47
+    },
+    {
+      "frame_id": "galaxy-3/system-1/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 46
+    },
+    {
+      "frame_id": "galaxy-3/system-2/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 45
+    },
+    {
+      "frame_id": "galaxy-0/system-3",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 43
+    },
+    {
+      "frame_id": "galaxy-1/system-1/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 43
+    },
+    {
+      "frame_id": "galaxy-1/system-2/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 43
+    },
+    {
+      "frame_id": "galaxy-1/system-14/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 42
+    },
+    {
+      "frame_id": "galaxy-1/system-0/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 41
+    },
+    {
+      "frame_id": "galaxy-1/system-0/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 41
+    },
+    {
+      "frame_id": "galaxy-1/system-1/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 40
+    },
+    {
+      "frame_id": "galaxy-1/system-2/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 40
+    },
+    {
+      "frame_id": "galaxy-1/system-4/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 40
+    },
+    {
+      "frame_id": "galaxy-1/system-3/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 39
+    },
+    {
+      "frame_id": "galaxy-1/system-4/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 39
+    },
+    {
+      "frame_id": "galaxy-1/system-8/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 39
+    },
+    {
+      "frame_id": "galaxy-1/system-2/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 37
+    },
+    {
+      "frame_id": "galaxy-1/system-0/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 36
+    },
+    {
+      "frame_id": "galaxy-1/system-3/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 35
+    },
+    {
+      "frame_id": "galaxy-1/system-1/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 34
+    },
+    {
+      "frame_id": "galaxy-1/system-11/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 34
+    },
+    {
+      "frame_id": "galaxy-1/system-11/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 33
+    },
+    {
+      "frame_id": "galaxy-1/system-2/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 33
+    },
+    {
+      "frame_id": "galaxy-1/system-3/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 33
+    },
+    {
+      "frame_id": "galaxy-1/system-3/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 31
+    },
+    {
+      "frame_id": "galaxy-1/system-7/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 31
+    },
+    {
+      "frame_id": "galaxy-1/system-12/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 30
+    },
+    {
+      "frame_id": "galaxy-1/system-15/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 30
+    },
+    {
+      "frame_id": "galaxy-1/system-5/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 30
+    },
+    {
+      "frame_id": "galaxy-1/system-1/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 29
+    },
+    {
+      "frame_id": "galaxy-1/system-1/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 29
+    },
+    {
+      "frame_id": "galaxy-1/system-3/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 29
+    },
+    {
+      "frame_id": "galaxy-1/system-0/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 28
+    },
+    {
+      "frame_id": "galaxy-1/system-10/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 28
+    },
+    {
+      "frame_id": "galaxy-1/system-2",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 28
+    },
+    {
+      "frame_id": "galaxy-1/system-3/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 28
+    },
+    {
+      "frame_id": "galaxy-1/system-7/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 28
+    },
+    {
+      "frame_id": "galaxy-2/system-14/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 28
+    },
+    {
+      "frame_id": "galaxy-1/system-2/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 27
+    },
+    {
+      "frame_id": "galaxy-1/system-8/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 26
+    },
+    {
+      "frame_id": "galaxy-2/system-6/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 26
+    },
+    {
+      "frame_id": "galaxy-1/system-9/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 25
+    },
+    {
+      "frame_id": "galaxy-1/system-15/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 24
+    },
+    {
+      "frame_id": "galaxy-1/system-5/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 24
+    },
+    {
+      "frame_id": "galaxy-1/system-0/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 23
+    },
+    {
+      "frame_id": "galaxy-1/system-14/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 23
+    },
+    {
+      "frame_id": "galaxy-2/system-10/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 23
+    },
+    {
+      "frame_id": "galaxy-2/system-12/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 23
+    },
+    {
+      "frame_id": "galaxy-1/system-12/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 22
+    },
+    {
+      "frame_id": "galaxy-1/system-6/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 22
+    },
+    {
+      "frame_id": "galaxy-1/system-6/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 22
+    },
+    {
+      "frame_id": "galaxy-1/system-0",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 21
+    },
+    {
+      "frame_id": "galaxy-1/system-1/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 21
+    },
+    {
+      "frame_id": "galaxy-1/system-2/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 21
+    },
+    {
+      "frame_id": "galaxy-1/system-3",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 21
+    },
+    {
+      "frame_id": "galaxy-2/system-2/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 20
+    },
+    {
+      "frame_id": "galaxy-2/system-4/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 20
+    },
+    {
+      "frame_id": "galaxy-1/system-10/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 19
+    },
+    {
+      "frame_id": "galaxy-3/system-1/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 19
+    },
+    {
+      "frame_id": "galaxy-1/system-1",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 18
+    },
+    {
+      "frame_id": "galaxy-1/system-9/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 18
+    },
+    {
+      "frame_id": "galaxy-2/system-11/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 18
+    },
+    {
+      "frame_id": "galaxy-2/system-13/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 18
+    },
+    {
+      "frame_id": "galaxy-2/system-15/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 18
+    },
+    {
+      "frame_id": "galaxy-3/system-2/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 18
+    },
+    {
+      "frame_id": "galaxy-0/system-13/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 17
+    },
+    {
+      "frame_id": "galaxy-2/system-12/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 17
+    },
+    {
+      "frame_id": "galaxy-2/system-2/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 17
+    },
+    {
+      "frame_id": "galaxy-2/system-0/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 16
+    },
+    {
+      "frame_id": "galaxy-2/system-1/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 16
+    },
+    {
+      "frame_id": "galaxy-2/system-1/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 16
+    },
+    {
+      "frame_id": "galaxy-2/system-11/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 16
+    },
+    {
+      "frame_id": "galaxy-2/system-1/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 15
+    },
+    {
+      "frame_id": "galaxy-2/system-2/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 15
+    },
+    {
+      "frame_id": "galaxy-2/system-3/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 15
+    },
+    {
+      "frame_id": "galaxy-2/system-7/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 15
+    },
+    {
+      "frame_id": "galaxy-2/system-8/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 15
+    },
+    {
+      "frame_id": "galaxy-2/system-9/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 15
+    },
+    {
+      "frame_id": "galaxy-0/system-13/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 14
+    },
+    {
+      "frame_id": "galaxy-0/system-13/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 14
+    },
+    {
+      "frame_id": "galaxy-0/system-9/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 14
+    },
+    {
+      "frame_id": "galaxy-0/system-9/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 14
+    },
+    {
+      "frame_id": "galaxy-1/system-13/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 14
+    },
+    {
+      "frame_id": "galaxy-2/system-1/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 14
+    },
+    {
+      "frame_id": "galaxy-2/system-2/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 14
+    },
+    {
+      "frame_id": "galaxy-2/system-4/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 14
+    },
+    {
+      "frame_id": "galaxy-0/system-11/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 13
+    },
+    {
+      "frame_id": "galaxy-0/system-12/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 13
+    },
+    {
+      "frame_id": "galaxy-0/system-7/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 13
+    },
+    {
+      "frame_id": "galaxy-0/system-7/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 13
+    },
+    {
+      "frame_id": "galaxy-0/system-8/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 13
+    },
+    {
+      "frame_id": "galaxy-0/system-8/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 13
+    },
+    {
+      "frame_id": "galaxy-2/system-1",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 13
+    },
+    {
+      "frame_id": "galaxy-2/system-9/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 13
+    },
+    {
+      "frame_id": "galaxy-0/system-13/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-0/system-15/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-0/system-15/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-0/system-5/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-0/system-5/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-0/system-5/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-2/system-0",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-2/system-1/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-2/system-13/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-2/system-2",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-3/system-1/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-3/system-1/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-3/system-11/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-3/system-13/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 12
+    },
+    {
+      "frame_id": "galaxy-0/system-11",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 11
+    },
+    {
+      "frame_id": "galaxy-0/system-15/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 11
+    },
+    {
+      "frame_id": "galaxy-0/system-6/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 11
+    },
+    {
+      "frame_id": "galaxy-0/system-7/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 11
+    },
+    {
+      "frame_id": "galaxy-2/system-0/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 11
+    },
+    {
+      "frame_id": "galaxy-2/system-10/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 11
+    },
+    {
+      "frame_id": "galaxy-2/system-2/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 11
+    },
+    {
+      "frame_id": "galaxy-3/system-14/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 11
+    },
+    {
+      "frame_id": "galaxy-3/system-4/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 11
+    },
+    {
+      "frame_id": "galaxy-0/system-10/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-0/system-5/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-0/system-5/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-1/system-10/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-2/system-14/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-2/system-5/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-2/system-8/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-3/system-0/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-3/system-0/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-3/system-15/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-3/system-2/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-3/system-3/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-3/system-9/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 10
+    },
+    {
+      "frame_id": "galaxy-0/system-11/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-0/system-15/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-0/system-4",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-0/system-9/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-0/system-9/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-1/system-5/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-1/system-9/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-2/system-0/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-2/system-15/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-2/system-3",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-2/system-6/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-3/system-3/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-3/system-4/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-3/system-8/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 9
+    },
+    {
+      "frame_id": "galaxy-0/system-10/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-11/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-12/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-13/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-14/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-14/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-14/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-15/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-5",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-8/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-8/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-8/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-1/system-13/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-1/system-7/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-1/system-9/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-2/system-0/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-2/system-3/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-2/system-3/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-2/system-5/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-3/system-6/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 8
+    },
+    {
+      "frame_id": "galaxy-0/system-10/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-0/system-12/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-0/system-12/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-0/system-13",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-0/system-14",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-0/system-4/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-0/system-4/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-0/system-5/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-0/system-6/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-0/system-6/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-1/system-15/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-1/system-5/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-1/system-8/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-2/system-0/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-2/system-2/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-2/system-7/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-3/system-0",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-3/system-7/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 7
+    },
+    {
+      "frame_id": "galaxy-0/system-10",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-0/system-10/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-0/system-10/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-0/system-12",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-0/system-12/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-0/system-14/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-0/system-14/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-0/system-15/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-0/system-6/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-0/system-7/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-0/system-9/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-1/system-10/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-1/system-8/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-2/system-0/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-2/system-11/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-3/system-14/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-3/system-8/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 6
+    },
+    {
+      "frame_id": "galaxy-0/system-11/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-0/system-11/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-0/system-11/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-0/system-13/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-0/system-14/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-0/system-4/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-0/system-6/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-0/system-6/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-0/system-9",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-1/system-11/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-1/system-11/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-1/system-12",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-1/system-13/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-1/system-14/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-1/system-4/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-1/system-6/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-1/system-8/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-1/system-9/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-2/system-3/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-2/system-3/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-3/system-0/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-3/system-0/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-3/system-1/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-3/system-1/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-3/system-12/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-3/system-2",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-3/system-7/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 5
+    },
+    {
+      "frame_id": "galaxy-0/system-4/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-0/system-7",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-0/system-7/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-0/system-7/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-0/system-8",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-1/system-10/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-1/system-11",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-1/system-12/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-1/system-13/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-1/system-15/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-1/system-5/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-1/system-6/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-1/system-7/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-2/system-1/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-2/system-10/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-2/system-15/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-2/system-3/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-2/system-5/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-3/system-1/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-3/system-11/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-3/system-12/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-3/system-2/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-3/system-2/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-3/system-2/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-3/system-3",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-3/system-3/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-3/system-3/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-3/system-3/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-3/system-9/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 4
+    },
+    {
+      "frame_id": "galaxy-0/system-4/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-10",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-12/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-13/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-14/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-15/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-15/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-15/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-4/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-5",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-6",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-7/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-7/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-7/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-8/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-1/system-9/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-2/system-10/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-2/system-12",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-2/system-12/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-2/system-14/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-2/system-5",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-2/system-6/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-2/system-7/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-3/system-0/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-3/system-11/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-3/system-11/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-3/system-13",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-3/system-15/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-3/system-2/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-3/system-7/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 3
+    },
+    {
+      "frame_id": "galaxy-0/system-10/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-0/system-12/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-0/system-4/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-0/system-6",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-0/system-9/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-10/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-10/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-12/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-14",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-14/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-14/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-14/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-4",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-4/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-4/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-5/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-5/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-6/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-6/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-7",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-8",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-8/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-1/system-8/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-10/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-10/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-11",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-11/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-12/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-13/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-13/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-13/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-14/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-15/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-4/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-4/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-4/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-5/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-5/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-6/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-7/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-7/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-8/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-8/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-9",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-9/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-2/system-9/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-1",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-10/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-10/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-10/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-10/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-10/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-12",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-12/world-1",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-12/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-12/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-13/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-13/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-14/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-3/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-4/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-5/world-0",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-5/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-5/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-6/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-3/system-7/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 2
+    },
+    {
+      "frame_id": "galaxy-0/system-15",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-0/system-8/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-10/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-11/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-11/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-11/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-12/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-13",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-13/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-14/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-15",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-15/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-4/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-4/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-5/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-6/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-6/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-7/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-1/system-9/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-10/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-11/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-12/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-12/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-12/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-13",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-14/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-14/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-14/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-15",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-15/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-15/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-4/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-4/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-4/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-5/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-5/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-6",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-6/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-6/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-6/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-6/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-9/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-2/system-9/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-0/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-11/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-12/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-12/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-12/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-13/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-14/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-14/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-15/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-15/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-4/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-5",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-5/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-5/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-6/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-6/world-5",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-6/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-7",
+      "frame_kind": "stellar_system",
+      "unit": "km",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-7/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-7/world-3",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-7/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-8/world-4",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-8/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-9/world-2",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-9/world-6",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    },
+    {
+      "frame_id": "galaxy-3/system-9/world-7",
+      "frame_kind": "local_surface",
+      "unit": "m",
+      "count": 1
+    }
+  ],
+  "limit": 1000
+}

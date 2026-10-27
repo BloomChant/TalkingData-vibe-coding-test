@@ -1,0 +1,597 @@
+{
+  "run": "probe-e66cf7ae83",
+  "filters_applied": true,
+  "total": 2940,
+  "facets": {
+    "type": {
+      "buckets": [
+        {
+          "value": "1",
+          "label": "万物",
+          "count": 365
+        },
+        {
+          "value": "2",
+          "label": "设备",
+          "count": 169
+        },
+        {
+          "value": "13",
+          "label": "巡检机器人 · 13",
+          "count": 150
+        },
+        {
+          "value": "14",
+          "label": "边缘网关 · 14",
+          "count": 135
+        },
+        {
+          "value": "3",
+          "label": "文档",
+          "count": 102
+        },
+        {
+          "value": "21",
+          "label": "安全装备 · 21",
+          "count": 93
+        },
+        {
+          "value": "23",
+          "label": "审计报告 · 23",
+          "count": 82
+        },
+        {
+          "value": "15",
+          "label": "水质样本 · 15",
+          "count": 79
+        },
+        {
+          "value": "4",
+          "label": "商品",
+          "count": 78
+        },
+        {
+          "value": "22",
+          "label": "办公用品 · 22",
+          "count": 69
+        },
+        {
+          "value": "19",
+          "label": "周期观测组 · 19",
+          "count": 67
+        },
+        {
+          "value": "30",
+          "label": "冷链终端 · 30",
+          "count": 65
+        },
+        {
+          "value": "17",
+          "label": "远域星区 · 17",
+          "count": 64
+        },
+        {
+          "value": "32",
+          "label": "生物档案 · 32",
+          "count": 62
+        },
+        {
+          "value": "16",
+          "label": "航行器档案 · 16",
+          "count": 59
+        },
+        {
+          "value": "35",
+          "label": "工业级 · 35",
+          "count": 59
+        },
+        {
+          "value": "18",
+          "label": "低亮度组 · 18",
+          "count": 55
+        },
+        {
+          "value": "28",
+          "label": "巡检任务 · 28",
+          "count": 51
+        },
+        {
+          "value": "31",
+          "label": "能源组件 · 31",
+          "count": 51
+        },
+        {
+          "value": "25",
+          "label": "深度观测组 · 25",
+          "count": 50
+        },
+        {
+          "value": "27",
+          "label": "航行记录 · 27（修订18）",
+          "count": 44
+        },
+        {
+          "value": "26",
+          "label": "高频组 · 26",
+          "count": 42
+        },
+        {
+          "value": "24",
+          "label": "载具观测 · 24",
+          "count": 42
+        },
+        {
+          "value": "33",
+          "label": "水文观测 · 33（修订11）",
+          "count": 40
+        },
+        {
+          "value": "6",
+          "label": "任务",
+          "count": 39
+        },
+        {
+          "value": "34",
+          "label": "复检组 · 34",
+          "count": 37
+        },
+        {
+          "value": "20",
+          "label": "光谱观测 · 20",
+          "count": 36
+        },
+        {
+          "value": "5",
+          "label": "样本",
+          "count": 35
+        },
+        {
+          "value": "37",
+          "label": "任务编队 · 37",
+          "count": 33
+        },
+        {
+          "value": "38",
+          "label": "专项调查组 · 38",
+          "count": 32
+        },
+        {
+          "value": "43",
+          "label": "耐候款 · 43",
+          "count": 32
+        },
+        {
+          "value": "47",
+          "label": "便携型 · 47",
+          "count": 32
+        },
+        {
+          "value": "46",
+          "label": "材料试片 · 46",
+          "count": 29
+        },
+        {
+          "value": "10",
+          "label": "星体",
+          "count": 28
+        },
+        {
+          "value": "11",
+          "label": "生物",
+          "count": 27
+        },
+        {
+          "value": "42",
+          "label": "栖息地记录 · 42",
+          "count": 27
+        },
+        {
+          "value": "8",
+          "label": "资产",
+          "count": 25
+        },
+        {
+          "value": "29",
+          "label": "物流服务 · 29",
+          "count": 24
+        },
+        {
+          "value": "39",
+          "label": "巡检机器人 · 39（修订21）",
+          "count": 24
+        },
+        {
+          "value": "41",
+          "label": "物种研究 · 41",
+          "count": 23
+        },
+        {
+          "value": "50",
+          "label": "专项调查组 · 50",
+          "count": 23
+        },
+        {
+          "value": "40",
+          "label": "水文观测 · 40（修订28）",
+          "count": 22
+        },
+        {
+          "value": "48",
+          "label": "轨道观测 · 48",
+          "count": 22
+        },
+        {
+          "value": "52",
+          "label": "研究笔记 · 52",
+          "count": 22
+        },
+        {
+          "value": "61",
+          "label": "环境传感器 · 61",
+          "count": 21
+        },
+        {
+          "value": "36",
+          "label": "实验设施 · 36",
+          "count": 20
+        },
+        {
+          "value": "44",
+          "label": "物流服务 · 44",
+          "count": 20
+        },
+        {
+          "value": "49",
+          "label": "长期级 · 49",
+          "count": 20
+        },
+        {
+          "value": "59",
+          "label": "自然环境组 · 59",
+          "count": 19
+        },
+        {
+          "value": "45",
+          "label": "维护记录 · 45",
+          "count": 18
+        },
+        {
+          "value": "57",
+          "label": "深空档案 · 57",
+          "count": 18
+        },
+        {
+          "value": "56",
+          "label": "研究笔记 · 56",
+          "count": 17
+        },
+        {
+          "value": "58",
+          "label": "声学观测 · 58",
+          "count": 17
+        },
+        {
+          "value": "60",
+          "label": "实验款 · 60",
+          "count": 16
+        },
+        {
+          "value": "7",
+          "label": "观测",
+          "count": 13
+        },
+        {
+          "value": "63",
+          "label": "巡检机器人 · 63",
+          "count": 13
+        },
+        {
+          "value": "51",
+          "label": "试用级 · 51",
+          "count": 12
+        },
+        {
+          "value": "54",
+          "label": "实验型 · 54",
+          "count": 12
+        },
+        {
+          "value": "62",
+          "label": "维护任务 · 62",
+          "count": 12
+        },
+        {
+          "value": "12",
+          "label": "航行器",
+          "count": 11
+        },
+        {
+          "value": "55",
+          "label": "巡检机器人 · 55",
+          "count": 11
+        },
+        {
+          "value": "53",
+          "label": "在役组 · 53",
+          "count": 10
+        },
+        {
+          "value": "9",
+          "label": "服务",
+          "count": 9
+        },
+        {
+          "value": "64",
+          "label": "生物档案 · 64",
+          "count": 5
+        },
+        {
+          "value": "66",
+          "label": "便携型 · 66",
+          "count": 1
+        }
+      ],
+      "other": 0
+    },
+    "kind": {
+      "buckets": [
+        {
+          "value": "采集设备",
+          "label": "采集设备",
+          "count": 537
+        },
+        {
+          "value": "监测终端",
+          "label": "监测终端",
+          "count": 416
+        },
+        {
+          "value": "观测报告",
+          "label": "观测报告",
+          "count": 201
+        },
+        {
+          "value": "工作耗材",
+          "label": "工作耗材",
+          "count": 176
+        },
+        {
+          "value": "生物切片",
+          "label": "生物切片",
+          "count": 108
+        },
+        {
+          "value": "异常信号",
+          "label": "异常信号",
+          "count": 99
+        },
+        {
+          "value": "巡检单元",
+          "label": "巡检单元",
+          "count": 91
+        },
+        {
+          "value": "航天器",
+          "label": "航天器",
+          "count": 87
+        },
+        {
+          "value": "黑洞",
+          "label": "黑洞",
+          "count": 85
+        },
+        {
+          "value": "精密组件",
+          "label": "精密组件",
+          "count": 78
+        },
+        {
+          "value": "船舶",
+          "label": "船舶",
+          "count": 70
+        },
+        {
+          "value": "补给套件",
+          "label": "补给套件",
+          "count": 69
+        },
+        {
+          "value": "恒星",
+          "label": "恒星",
+          "count": 64
+        },
+        {
+          "value": "陆生动物",
+          "label": "陆生动物",
+          "count": 62
+        },
+        {
+          "value": "彗星",
+          "label": "彗星",
+          "count": 55
+        },
+        {
+          "value": "微生物菌落",
+          "label": "微生物菌落",
+          "count": 55
+        },
+        {
+          "value": "样本采集",
+          "label": "样本采集",
+          "count": 51
+        },
+        {
+          "value": "鸟类",
+          "label": "鸟类",
+          "count": 51
+        },
+        {
+          "value": "小行星",
+          "label": "小行星",
+          "count": 50
+        },
+        {
+          "value": "周期观测",
+          "label": "周期观测",
+          "count": 49
+        },
+        {
+          "value": "分析作业",
+          "label": "分析作业",
+          "count": 44
+        },
+        {
+          "value": "飞机",
+          "label": "飞机",
+          "count": 42
+        },
+        {
+          "value": "数据核对",
+          "label": "数据核对",
+          "count": 39
+        },
+        {
+          "value": "蓝色晶簇",
+          "label": "蓝色晶簇",
+          "count": 37
+        },
+        {
+          "value": "水体样本",
+          "label": "水体样本",
+          "count": 35
+        },
+        {
+          "value": "天然卫星",
+          "label": "天然卫星",
+          "count": 28
+        },
+        {
+          "value": "外星晶体生命",
+          "label": "外星晶体生命",
+          "count": 27
+        },
+        {
+          "value": "运输设备",
+          "label": "运输设备",
+          "count": 25
+        },
+        {
+          "value": "外星群体意识",
+          "label": "外星群体意识",
+          "count": 23
+        },
+        {
+          "value": "光谱记录",
+          "label": "光谱记录",
+          "count": 22
+        },
+        {
+          "value": "岩质行星",
+          "label": "岩质行星",
+          "count": 22
+        },
+        {
+          "value": "维护说明",
+          "label": "维护说明",
+          "count": 22
+        },
+        {
+          "value": "实验仪器",
+          "label": "实验仪器",
+          "count": 20
+        },
+        {
+          "value": "通信链路",
+          "label": "通信链路",
+          "count": 20
+        },
+        {
+          "value": "检验记录",
+          "label": "检验记录",
+          "count": 18
+        },
+        {
+          "value": "采样工具",
+          "label": "采样工具",
+          "count": 16
+        },
+        {
+          "value": "便携探针",
+          "label": "便携探针",
+          "count": 13
+        },
+        {
+          "value": "数据服务",
+          "label": "数据服务",
+          "count": 12
+        },
+        {
+          "value": "设备校准",
+          "label": "设备校准",
+          "count": 12
+        },
+        {
+          "value": "存储实例",
+          "label": "存储实例",
+          "count": 9
+        }
+      ],
+      "other": 0
+    },
+    "frame_kind": {
+      "buckets": [
+        {
+          "value": "local_surface",
+          "label": "local_surface",
+          "count": 2121
+        },
+        {
+          "value": "none",
+          "label": "未提供位置",
+          "count": 428
+        },
+        {
+          "value": "galactic",
+          "label": "galactic",
+          "count": 304
+        },
+        {
+          "value": "stellar_system",
+          "label": "stellar_system",
+          "count": 87
+        }
+      ],
+      "other": 0
+    },
+    "galaxy": {
+      "buckets": [
+        {
+          "value": "galaxy-0",
+          "label": "galaxy-0",
+          "count": 1412
+        },
+        {
+          "value": "galaxy-1",
+          "label": "galaxy-1",
+          "count": 644
+        },
+        {
+          "value": "none",
+          "label": "未提供位置",
+          "count": 428
+        },
+        {
+          "value": "galaxy-2",
+          "label": "galaxy-2",
+          "count": 345
+        },
+        {
+          "value": "galaxy-3",
+          "label": "galaxy-3",
+          "count": 111
+        }
+      ],
+      "other": 0
+    }
+  }
+}

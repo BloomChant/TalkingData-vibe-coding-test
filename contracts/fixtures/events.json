@@ -1,0 +1,352 @@
+{
+  "events": [
+    {
+      "id": 213,
+      "run": "correctness-001",
+      "created": 1793110359.9218867,
+      "kind": "create",
+      "summary": "新增分类「土壤样本 · 180」",
+      "details": {
+        "revision": 112,
+        "node": {
+          "type_id": 180,
+          "parent_id": 5,
+          "name": "土壤样本 · 180"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 212,
+      "run": "correctness-001",
+      "created": 1793110359.92182,
+      "kind": "create",
+      "summary": "新增分类「轻量款 · 179」",
+      "details": {
+        "revision": 112,
+        "node": {
+          "type_id": 179,
+          "parent_id": 168,
+          "name": "轻量款 · 179"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 211,
+      "run": "correctness-001",
+      "created": 1793110357.8082337,
+      "kind": "rename",
+      "summary": "分类改名：轨道观测 · 125 → 深空档案 · 125（修订111）",
+      "details": {
+        "revision": 111,
+        "node": {
+          "type_id": 125,
+          "parent_id": 10,
+          "name": "深空档案 · 125（修订111）"
+        },
+        "previous": {
+          "run": "correctness-001",
+          "id": 125,
+          "parent": 10,
+          "name": "轨道观测 · 125",
+          "count": 37,
+          "revision": 73
+        }
+      }
+    },
+    {
+      "id": 210,
+      "run": "correctness-001",
+      "created": 1793110355.4832652,
+      "kind": "create",
+      "summary": "新增分类「多光谱探测器 · 178」",
+      "details": {
+        "revision": 110,
+        "node": {
+          "type_id": 178,
+          "parent_id": 2,
+          "name": "多光谱探测器 · 178"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 209,
+      "run": "correctness-001",
+      "created": 1793110355.483207,
+      "kind": "create",
+      "summary": "新增分类「运输平台 · 177」",
+      "details": {
+        "revision": 110,
+        "node": {
+          "type_id": 177,
+          "parent_id": 12,
+          "name": "运输平台 · 177"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 208,
+      "run": "correctness-001",
+      "created": 1793110354.6245925,
+      "kind": "move",
+      "summary": "分类迁移：协作组 · 28（修订41）（62 → 156）",
+      "details": {
+        "revision": 109,
+        "node": {
+          "type_id": 28,
+          "parent_id": 156,
+          "name": "协作组 · 28（修订41）"
+        },
+        "previous": {
+          "run": "correctness-001",
+          "id": 28,
+          "parent": 62,
+          "name": "协作组 · 28（修订41）",
+          "count": 211,
+          "revision": 41
+        }
+      }
+    },
+    {
+      "id": 207,
+      "run": "correctness-001",
+      "created": 1793110352.8035846,
+      "kind": "rename",
+      "summary": "分类改名：生物档案 · 71（修订68） → 生物档案 · 71（修订108）",
+      "details": {
+        "revision": 108,
+        "node": {
+          "type_id": 71,
+          "parent_id": 11,
+          "name": "生物档案 · 71（修订108）"
+        },
+        "previous": {
+          "run": "correctness-001",
+          "id": 71,
+          "parent": 11,
+          "name": "生物档案 · 71（修订68）",
+          "count": 90,
+          "revision": 68
+        }
+      }
+    },
+    {
+      "id": 206,
+      "run": "correctness-001",
+      "created": 1793110350.9985776,
+      "kind": "create",
+      "summary": "新增分类「低功耗型 · 176」",
+      "details": {
+        "revision": 107,
+        "node": {
+          "type_id": 176,
+          "parent_id": 92,
+          "name": "低功耗型 · 176"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 205,
+      "run": "correctness-001",
+      "created": 1793110350.9985528,
+      "kind": "create",
+      "summary": "新增分类「边缘网关 · 175」",
+      "details": {
+        "revision": 107,
+        "node": {
+          "type_id": 175,
+          "parent_id": 2,
+          "name": "边缘网关 · 175"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 204,
+      "run": "correctness-001",
+      "created": 1793110350.8936415,
+      "kind": "create",
+      "summary": "新增分类「操作手册 · 174」",
+      "details": {
+        "revision": 106,
+        "node": {
+          "type_id": 174,
+          "parent_id": 3,
+          "name": "操作手册 · 174"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 203,
+      "run": "correctness-001",
+      "created": 1793110350.8936179,
+      "kind": "create",
+      "summary": "新增分类「归档版 · 173」",
+      "details": {
+        "revision": 106,
+        "node": {
+          "type_id": 173,
+          "parent_id": 56,
+          "name": "归档版 · 173"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 202,
+      "run": "correctness-001",
+      "created": 1793110350.790327,
+      "kind": "create",
+      "summary": "新增分类「试验组 · 172」",
+      "details": {
+        "revision": 105,
+        "node": {
+          "type_id": 172,
+          "parent_id": 131,
+          "name": "试验组 · 172"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 201,
+      "run": "correctness-001",
+      "created": 1793110350.7903035,
+      "kind": "create",
+      "summary": "新增分类「声学观测 · 171」",
+      "details": {
+        "revision": 105,
+        "node": {
+          "type_id": 171,
+          "parent_id": 7,
+          "name": "声学观测 · 171"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 200,
+      "run": "correctness-001",
+      "created": 1793110350.6840465,
+      "kind": "create",
+      "summary": "新增分类「观测报告 · 170」",
+      "details": {
+        "revision": 104,
+        "node": {
+          "type_id": 170,
+          "parent_id": 3,
+          "name": "观测报告 · 170"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 199,
+      "run": "correctness-001",
+      "created": 1793110350.6840122,
+      "kind": "create",
+      "summary": "新增分类「计算服务 · 169」",
+      "details": {
+        "revision": 104,
+        "node": {
+          "type_id": 169,
+          "parent_id": 9,
+          "name": "计算服务 · 169"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 198,
+      "run": "correctness-001",
+      "created": 1793110350.5783112,
+      "kind": "create",
+      "summary": "新增分类「能源组件 · 168」",
+      "details": {
+        "revision": 103,
+        "node": {
+          "type_id": 168,
+          "parent_id": 4,
+          "name": "能源组件 · 168"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 197,
+      "run": "correctness-001",
+      "created": 1793110350.5782738,
+      "kind": "create",
+      "summary": "新增分类「便携型 · 167」",
+      "details": {
+        "revision": 103,
+        "node": {
+          "type_id": 167,
+          "parent_id": 92,
+          "name": "便携型 · 167"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 196,
+      "run": "correctness-001",
+      "created": 1793110349.7530494,
+      "kind": "create",
+      "summary": "新增分类「野外观测 · 166」",
+      "details": {
+        "revision": 102,
+        "node": {
+          "type_id": 166,
+          "parent_id": 11,
+          "name": "野外观测 · 166"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 195,
+      "run": "correctness-001",
+      "created": 1793110349.7530093,
+      "kind": "create",
+      "summary": "新增分类「天体巡测 · 165」",
+      "details": {
+        "revision": 102,
+        "node": {
+          "type_id": 165,
+          "parent_id": 10,
+          "name": "天体巡测 · 165"
+        },
+        "previous": null
+      }
+    },
+    {
+      "id": 194,
+      "run": "correctness-001",
+      "created": 1793110347.286736,
+      "kind": "rename",
+      "summary": "分类改名：多光谱探测器 · 119 → 巡检机器人 · 119（修订101）",
+      "details": {
+        "revision": 101,
+        "node": {
+          "type_id": 119,
+          "parent_id": 2,
+          "name": "巡检机器人 · 119（修订101）"
+        },
+        "previous": {
+          "run": "correctness-001",
+          "id": 119,
+          "parent": 2,
+          "name": "多光谱探测器 · 119",
+          "count": 36,
+          "revision": 67
+        }
+      }
+    }
+  ]
+}

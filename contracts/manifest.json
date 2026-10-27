@@ -1,0 +1,51 @@
+{
+  "version": "1.1",
+  "endpoints": [
+    { "name": "runs", "path": "/api/runs", "fixture": "runs.json", "run_scoped": false },
+    { "name": "overview", "path": "/api/overview", "fixture": "overview.json" },
+    { "name": "tree", "path": "/api/tree", "fixture": "tree.json" },
+    { "name": "objects", "path": "/api/objects?limit=5", "fixture": "objects.json", "pending_keys": ["total", "total_exact"] },
+    { "name": "object_detail", "path": "/api/objects/{object_id}", "fixture": "object_detail.json" },
+    { "name": "events", "path": "/api/events?limit=20", "fixture": "events.json" },
+    { "name": "quality", "path": "/api/quality", "fixture": "quality.json" },
+    { "name": "system", "path": "/api/system", "fixture": "system.json", "run_scoped": false },
+    { "name": "frames", "path": "/api/frames", "fixture": "frames.json" },
+    { "name": "positions", "path": "/api/positions?frame_id={frame_id}&unit={unit}&limit=50", "fixture": "positions.json" },
+    { "name": "objects_filtered", "path": "/api/objects?limit=5&frame_kind=none", "fixture": "objects.json", "pending": true, "pending_keys": ["total", "total_exact"], "assert_null": ["items[].frame_id"] },
+    { "name": "facets", "path": "/api/facets?dims=type,kind,frame_kind,galaxy", "fixture": "facets.json", "pending": true },
+    { "name": "fields", "path": "/api/fields?sample=500", "fixture": "fields.json", "pending": true },
+    { "name": "reconcile_last", "path": "/api/reconcile", "fixture": "reconcile.json", "pending": true, "pending_keys": ["batches", "checked_at"] }
+  ],
+  "freeform": [
+    "object_detail.object.attributes",
+    "events.events[].details",
+    "overview.operations",
+    "facets.facets",
+    "fields.fields[].types",
+    "fields.fields[].examples",
+    "reconcile.checks[].expected",
+    "reconcile.checks[].actual",
+    "reconcile_last.checks[].expected",
+    "reconcile_last.checks[].actual"
+  ],
+  "nullable": [
+    "overview.run",
+    "objects.items[].type_name",
+    "objects.items[].frame_id",
+    "objects.items[].frame_kind",
+    "objects.items[].unit",
+    "objects.next_cursor",
+    "objects_filtered.items[].type_name",
+    "objects_filtered.items[].frame_id",
+    "objects_filtered.items[].frame_kind",
+    "objects_filtered.items[].unit",
+    "objects_filtered.next_cursor",
+    "object_detail.object.position",
+    "object_detail.type_name",
+    "quality.rejected[].batch_id",
+    "system.*",
+    "fields.fields[].numeric",
+    "reconcile.checks[].note",
+    "reconcile_last.checks[].note"
+  ]
+}
